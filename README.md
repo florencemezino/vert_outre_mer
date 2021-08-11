@@ -17,39 +17,34 @@ Travellers interacting with the site are French and English speaker and lives ma
 
 * Single, Couple or Family travellers
 * English / French travellers
+* Local visitors
+* Tourism professionnals 
 
 ### User stories
 
 1. First Time Visitor Goals
 
-* As a traveller, I want to have an overview of the French overseas destinations so that I can see clearly my destination options 
-* As a traveller, I want to see the upcoming events in the destinations so that I can organise my activities during my stay.
-* As a traveller, I want to know what are sustainable options to move around and visit the island so that I can respecfully explore the destination
+* As a traveller, I want to have an overview of the French overseas destinations so that I can identidy my destination options 
+* As a traveller, I want to see the upcoming events in a chosen destination so that I can organise my activities during my stay.
 * As a traveller, I want to have access to a list of local restaurants which have good sustainable practices so that I can discover and enjoy great local food specialities
+* As a traveller, I want to know what are sustainable options to move around and visit the island so that I can respecfully explore the destination
 * As a traveller, I want to be informed about sustainabile news / actions so that I know if it matches my interest to travel to the destination
 * As a traveller, I want to be able to support local businesses who invest in sustainable practices so that the destination can improve their offer and contribute to sustainable tourism in the destination
+* As a tourism professionnal I would like to have more online visibility so that I can attract more clients with a green mindset to my business
+* As a tourism professionnal I would like to have more information about how to get a « Vert ‘Outre Mer » label so that I can better promote my business and sustainable practices
 
-
-* As a partner I would like to have visibility on my sustainable practices so that I can get more clients
-As a partner I would like have more information about how to get a « Vert ‘Outre Mer » label so that I can promote my sustainable practices
-* As a partner I would like « Vert l’Outre Mer » to offer to write an article about my activity on their website every semester/trimester so that I can gain visibility and show my progress in terms of sustainable tourism.
 
 2. Returning Visitors Goals
 
 * As a traveller, I want to see different French overseas destinations so that I can make up my mind regarding the destination to visit.
-* 
-* 
-* 
-* 
-* 
+* As a traveller, I want to see how my contribution / donation has impacted the destination to improve their sustainable practices so that evaluate my involvment
+* As a tourism professionnal I would like to communicate more about my practices and would like « Vert l’Outre Mer » to offer to write an article about my activity on their website every semester/trimester so that I can gain visibility and show my progress in terms of sustainable tourism. 
+* As a tourism professionnal I want to be able to share articles written about my activity easily on social media so that I can attract new clients
 
 3. Frequent User Goals
 
-* As a traveller, I want to see how my contribution / donation has impacted the destination to improve their sustainable practices so that evaluate my involvment
-* 
-* 
-* 
-* 
+* As a local traveller I want to see if there are any new local events organized per month so that I can participate
+* As a tourism professionnal I want to stay informed about best practices in terms sustainable tourim so that I can improve my activities
 
 
 ### Design
