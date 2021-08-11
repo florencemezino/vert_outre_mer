@@ -15,9 +15,8 @@ End users for this project are travellers considering to visit French overseas d
 
 Travellers interacting with the site are French and English speaker and lives mainly in the France (but it can be anywhere in the world). They are environmentally conscious and socially responsible. They suupport sustainable practice. Below we can find their profile :
 
-* Single travellers
-* Couples travellers
-* Family travellers
+* Single, Couple or Family travellers
+* English / French travellers
 
 ### User stories
 
@@ -30,6 +29,10 @@ Travellers interacting with the site are French and English speaker and lives ma
 * As a traveller, I want to be informed about sustainabile news / actions so that I know if it matches my interest to travel to the destination
 * As a traveller, I want to be able to support local businesses who invest in sustainable practices so that the destination can improve their offer and contribute to sustainable tourism in the destination
 
+
+* As a partner I would like to have visibility on my sustainable practices so that I can get more clients
+As a partner I would like have more information about how to get a « Vert ‘Outre Mer » label so that I can promote my sustainable practices
+* As a partner I would like « Vert l’Outre Mer » to offer to write an article about my activity on their website every semester/trimester so that I can gain visibility and show my progress in terms of sustainable tourism.
 
 2. Returning Visitors Goals
 
