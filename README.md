@@ -2,7 +2,7 @@
 
 [View the live project here](link)
 
-![France Overseas](assets/testing/responsive.png)
+![Vert l'Outre Mer](assets/testing/responsive.png)
 
 ## User Experience (UX)
 
@@ -13,12 +13,15 @@ End users for this project are travellers considering to visit French overseas d
 
 2.  Profile 
 
-Travellers interacting with the site are French and English speaker and lives mainly in the France (but it can be anywhere in the world). They are environmentally conscious and socially responsible. They suupport sustainable practice. Below we can find their profile :
+Travellers interacting with the site are French and English speaker and lives mainly in the France (but it can be anywhere in the world). They are environmentally conscious and socially responsible. They support sustainable practice in the tourism industry. Below we can find their profile :
 
 * Single, Couple or Family travellers
 * English / French travellers
 * Local visitors
+
+Another type of user profile :
 * Tourism professionnals 
+This category aims to promote their activity and their practice. Making tourism more sustainable is their primary goal. Receiving a green label is a form of recognition of their work.
 
 ### User stories
 
@@ -51,27 +54,21 @@ Travellers interacting with the site are French and English speaker and lives ma
 
 1. Colour Scheme
 The two main colours used for this project are as follow : 
-* `XXXXXX` : clear green to match the [hero image](assets//images/la_reunion)
-* `XXXXXX` : dark green
-
-
+* `#67A759` : clear green 
+* `#666666` : dark grey
 
 2. Typography
-The `xxxxx` font is the main font used throughout the whole website with `xxxxx`, `xxxxx`, `xxxxx` as fallback fonts in case for any reason the font isn't being imported into the site correctly. 
-`xxxxx` is a clean font used frequently in programming, so it is both attractive and appropriate for this portfolio project. It has a techy, machine-like feel to it. The wide-open characters also give it a friendly touch and this is the goal of this personal portfolio.
+The `Montserrat` font is the main font used throughout the whole website with `sans-serif`
+as fallback fonts in case for any reason the font isn't being imported into the site correctly. 
 
 3. Imagery
-Imagery is important in this sustainable guide as it bring the travellers already within the destination. Images are mainly landscapes images representing each destination.
+Imagery is important in this website about sustainable tourism as it bring the travellers already within the destination. Images are mainly landscapes images and event/activities representing each destination.
 
 a. Landscape photos
 Images are mainly landscapes representing each destination.
 
-All photos from Reunion Island page have been bought and are from `Air Lagon` a paragliding agency based in Reunion Island.
-All photos from
-All photos from
-All photos from
-All photos from
-All photos from
+All landscape photos from Reunion Island page were bought and are from `Air Lagon` a paragliding agency based in Reunion Island.
+
 
 * The large background  of the main page [hero image](assets//images/xxxxx) is designed to be striking and catch the user's attention. It also has a green aesthetic in order to reflect the sustainable aspect.
 * [xxxxxx](assets/images/) has been thought to 
@@ -97,11 +94,14 @@ e. Maps
 
 ### Wireframes
 
-I. All Wireframes - [View](assets/wireframes/)
+1. All Wireframes - [View](assets/wireframes/all_wireframes_vert_l'outre_mer.pdf)
 
-1. Web Wireframes - [View](assets/wireframes/)
+2. Mobile Wireframes - [View](assets/wireframes/mobile_wireframes_vert_l'outre_mer.pdf)
 
-II. Mobile Wireframes - [View](assets/wireframes/)
+3. Tablet Wireframes - [View](assets/wireframes/web_wireframes_vert_l'outre_mer.pdf)
+
+4. Web Wireframes - [View](assets/wireframes/web_wireframes_vert_l'outre_mer.pdf)
+
 
 ## Features
 
