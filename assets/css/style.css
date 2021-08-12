@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+
+.global_home_bg{
+    background-image: url(assets/css/images/hero_image.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    min-height: 100%;
+    height: auto;
+    background-attachment: fixed;
+    padding-top: 0;
+    margin-bottom: 50px;
+}
