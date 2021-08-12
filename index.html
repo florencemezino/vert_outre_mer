@@ -57,9 +57,9 @@
 
     <!-- Hero --> 
     <div class='global-home-bg px-4 pt-5 my-5 text-center' cz-shortcut-listen="true" >
-        <h1 class="main-title display-4 fw-bold">Vert l'Outre Mer</h1>
+        <h1 class="display-4 fw-bold">Vert l'Outre Mer</h1>
         <div class="col-lg-6 mx-auto">
-          <p class="lead mb-4">Sustainable Tourism in France Overseas. Discover French destinations in a fun and responsible way!</p>
+          <h2 class="lead mb-4">Sustainable Tourism in France Overseas. Discover French destinations in a fun and responsible way!</h2>
          
     <!-- Destinations list -->  
     <div>
@@ -85,7 +85,7 @@
           French Guiana
         </li>
         <li class="list-group-item">
-          <input class="form-check-input me-1" type="radio" value="" aria-label="destination" name="destination1">
+           <input class="form-check-input me-1" type="radio" value="" aria-label="destination" name="destination1">
           Reunion Island
         </li>
         <li class="list-group-item">
@@ -131,14 +131,51 @@
 </main>
 
 
-    <!-- Fixed footer --> 
+    <!-- Fixed footer -->
     <footer class="footer mt-auto py-3 bg-light fixed-bottom">
-        <div class="container">
-          <span class="text-muted">Copyright 2021</span>
-        </div>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-6 col-sm-4">
+              <span class="text-muted">Copyright 2021</span>
+            </div>
+            <div class="col-6 col-sm-4"> 
+            <form>
+              <h5>Subscribe to our newsletter</h5>
+              <p>Monthly digest of whats new and exciting from us.</p>
+              <div class="d-flex w-100 gap-2">
+                <label for="newsletter1" class="visually-hidden">Email address</label>
+                <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                <button class="btn btn-success type="button">Subscribe</button>
+              </div>
+            </form>
+            </div>
+          </div>
+        </div> 
     </footer>
-    <!--./Fixed footer --> 
+  
 
+    <!-- Fixed footer 
+
+    <div class="container">
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top fixed bottom">
+        <div class="col-sm-4 d-flex align-items-center">
+          <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+            <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
+          </a>
+          <span class="text-muted">&copy; 2021 Company, Inc</span>
+        </div>
+    
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
+          <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
+          <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
+        </ul>
+      </footer>
+    </div>
+    -->
+
+
+   
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
 </body>
