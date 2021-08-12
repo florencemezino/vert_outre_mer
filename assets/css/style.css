@@ -1,14 +1,51 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
 
-.global_home_bg{
-    background-image: url(assets/css/images/hero_image.JPG);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: right;
-    min-height: 100%;
-    height: auto;
-    background-attachment: fixed;
-    padding-top: 0;
-    margin-bottom: 50px;
+*{  border:0;
+    margin:0;
+    padding:0;
 }
+
+.body {
+    color: #343A40;
+    font-family: 'Montserrat','sans serif';
+}
+
+/* -------------------------------------------------------------------------------------------- Home*/
+
+.global-home-bg{
+    background: url('assets/css/images/hero_image.JPG') no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    justify-content: center;
+    position: relative;
+    margin-top: -80px;
+    top: 12%;
+    bottom: -150%;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/* -------------------------------------------------------------------------------------------- Header*/
+
+/* -------------------------------------------------------------------------------------------- Footer*/
+
+
+
+/* -------------------------------------------------------------------------------------------- Destinations*/
+
+
+/* -------------------------------------------------------------------------------------------- Events*/
+
+
+/* -------------------------------------------------------------------------------------------- News*/
+
+/* -------------------------------------------------------------------------------------------- Contact */
+
+
+
+
