@@ -15,9 +15,10 @@
     <link rel ="stylesheet" href="assets/css/style.css">
     <title>Vert l'Outre Mer</title>
 </head>
+
 <body>
+  <!-- Fixed navbar --> 
     <header>
-        <!-- Fixed navbar --> 
         <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
             <div class="container-fluid">
             <a class="navbar-brand" href="index.html">France Overseas</a>
@@ -38,7 +39,6 @@
                 <li class="nav-item">
                     <a class="nav-link" href="contact.html">Contact</a>
                 </li>
-
                 </ul>
                 <form class="d-flex">
                 <input class="form-control me-2" type="search" placeholder="your search" aria-label="Search">
@@ -50,88 +50,46 @@
     </header>
     <!--./Fixed navbar --> 
     
-
+  <!-- Destinations --> 
   <main>        
       <div class="col-lg-12">
-        <div class="container-fluid hero-image" style="background-image: url('assets/css/images/hero_image.JPG'); width: 100%; height:100vh;">
-
-    <!-- Hero --> 
-    <div class='global-home-bg px-4 pt-5 my-5 text-center' cz-shortcut-listen="true" >
+        <div class="container-fluid hero-image" style="background-image: url('assets/css/images/hero_image.JPG'); width: 100%; height:100vh;"> 
+      <div class='global-home-bg px-4 pt-5 my-5 text-center' cz-shortcut-listen="true" >
         <h1 class="display-4 fw-bold">Vert l'Outre Mer</h1>
-        <div class="col-lg-6 mx-auto">
-          <h2 class="lead mb-4">Sustainable Tourism in France Overseas. Discover French destinations in a fun and responsible way!</h2>
-         
-    <!-- Destinations list -->  
-    <div>
-      <ul class="list-group">
-        <li class="list-group-item">
-          <input class="form-check-input me-1" type="radio" value="" aria-label="destination" name="destination1">
-          Guadeloupe
-        </li>
-        <li class="list-group-item">
-          <input class="form-check-input me-1" type="radio" value="" aria-label="destination" name="destination1">
-          Saint Martin
-        </li>
-        <li class="list-group-item">
-          <input class="form-check-input me-1" type="radio" value="" aria-label="destination" name="destination1">
-          Saint Barthelemy
-        </li>
-        <li class="list-group-item">
-          <input class="form-check-input me-1" type="radio" value="" aria-label="destination" name="destination1">
-          Martinique
-        </li>
-        <li class="list-group-item">
-          <input class="form-check-input me-1" type="radio" value="" aria-label="destination"name="destination1">
-          French Guiana
-        </li>
-        <li class="list-group-item">
-           <input class="form-check-input me-1" type="radio" value="" aria-label="destination" name="destination1">
-          Reunion Island
-        </li>
-        <li class="list-group-item">
-          <input class="form-check-input me-1" type="radio" value="" aria-label="destination" name="destination1">
-          Saint Pierre et Miquelon
-        </li>
-        <li class="list-group-item">
-          <input class="form-check-input me-1" type="radio" value="" aria-label="destination" name="destination1">
-          Mayotte
-        </li>
-        <li class="list-group-item">
-          <input class="form-check-input me-1" type="radio" value="" aria-label="destination" name="destination1">
-          New Caledonia
-        </li>
-        <li class="list-group-item">
-          <input class="form-check-input me-1" type="radio" value="" aria-label="destination" name="destination1">
-          French Polynesia
-        </li>
-      </ul>
-  </div>
-    <!-- Destinations list -->  
-    
-    <div>
-      <ul class="list-group">
-        
-      </ul>
-  </div>
-    
-  <br>
+      <div class="col-lg-6 mx-auto">
+        <h2 class="lead mb-4">Sustainable Tourism in France Overseas. Discover French destinations in a fun and responsible way!</h2>
+      </div>
 
-    <!--./Destinations list 2-->   
-
+   <!-- Dropdown menu destinations list -->
+        <div class="btn-group">
+          <button class="btn btn-secondary btn-lg dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Select a destination
+          </button>
+          <div class="dropdown-menu">
+            <a class="btn btn-default dropdown-toggle" href="https://goodtravel.guide/netherlands/" role="button" data-toggle="dropdown">Guadeloupe</a>
+            <a class="btn btn-default dropdown-toggle" href="saintmartin.html" role="button" data-toggle="dropdown">Saint Martin</a>
+            <a class="btn btn-default dropdown-toggle" href="saintbarthelemy.html"role="button" data-toggle="dropdown">Saint Barthelemy</a>
+            <a class="btn btn-default dropdown-toggle" href="martinique.html" role="button" data-toggle="dropdown">Martinique</a>
+            <a class="btn btn-default dropdown-toggle" href="frenchguiana.html" role="button" data-toggle="dropdown">French Guiana</a>
+            <a class="btn btn-default dropdown-toggle" href="reunionisland.html" role="button" data-toggle="dropdown">Reunion Island</a>
+            <a class="btn btn-default dropdown-toggle" href="saintpierreetmiquelon.html" role="button" data-toggle="dropdown">Saint Pierre et Miquelon</a>
+            <a class="btn btn-default dropdown-toggle" href="mayotte.html" role="button" data-toggle="dropdown">Mayotte</a>
+            <a class="btn btn-default dropdown-toggle" href="newcaledonia.html" role="button" data-toggle="dropdown">New Caledonia</a>
+            <a class="btn btn-default dropdown-toggle" href="frenchpolynesia.html"role="button" data-toggle="dropdown">French Polynesia</a>
+          </div>
+        </div>
+  <!--./ Dropdown menu destinations list -->     
           <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
             <button type="button" class="btn btn-success btn-lg px-4 me-sm-3">Explore</button>
             <button type="button" class="btn btn-outline-secondary btn-lg px-4">Get in touch</button>
           </div>
-        </div>
       </div>
-      <!--./Hero -->
-
+        </div>
     </div>
-  </div>
 </main>
+  <!--./Destinations --> 
 
-
-    <!-- Fixed footer -->
+  <!-- Fixed footer -->
     <footer class="footer mt-auto py-3 bg-light fixed-bottom">
         <div class="container-fluid">
           <div class="row">
@@ -152,6 +110,7 @@
           </div>
         </div> 
     </footer>
+    <!--./ Fixed footer -->
   
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
 </body>
