@@ -9,19 +9,25 @@
 ### End user 
 
 1. Goal
-End users for this project are travellers considering to visit French overseas destinations in a sustainable way for leisure purposes.
+End users for this project are :
+- travellers considering to visit French overseas destinations in a sustainable way for leisure purposes.
+- tourism professionnals who wants to promote their service and learn about sustainable practices for their activity
 
-2.  Profile 
+2.  Profiles 
 
-Travellers interacting with the site are French and English speaker and lives mainly in the France (but it can be anywhere in the world). They are environmentally conscious and socially responsible. They support sustainable practice in the tourism industry. Below we can find their profile :
+a. Travellers
+
+Travellers interacting with the site are French and English speaker and lives mainly in the France (but it can be anywhere in the world). They are environmentally conscious and socially responsible. They support sustainable practice in the tourism industry. Below we can find more about ehri profile :
 
 * Single, Couple or Family travellers
 * English / French travellers
 * Local visitors
 
-Another type of user profile :
-* Tourism professionnals 
-This category aims to promote their activity and their practice. Making tourism more sustainable is their primary goal. Receiving a green label is a form of recognition of their work.
+b. Tourism professionnals 
+
+Tourism professionnals aim to promote their activity and their practices. Making their business more sustainable is their primary goal as it will improve management in general.
+Also new pratices will help to attract new customers.
+
 
 ### User stories
 
@@ -29,25 +35,29 @@ This category aims to promote their activity and their practice. Making tourism 
 
 * As a traveller, I want to have an overview of the French overseas destinations so that I can identidy my destination options 
 * As a traveller, I want to see the upcoming events in a chosen destination so that I can organise my activities during my stay.
+* A s a traveller, I want to see ideas about places to stay such as guest houses so that I can meet locals and experience the destination in a authentic way.
 * As a traveller, I want to have access to a list of local restaurants which have good sustainable practices so that I can discover and enjoy great local food specialities
-* As a traveller, I want to know what are sustainable options to move around and visit the island so that I can respecfully explore the destination
-* As a traveller, I want to be informed about sustainabile news / actions so that I know if it matches my interest to travel to the destination
-* As a traveller, I want to be able to support local businesses who invest in sustainable practices so that the destination can improve their offer and contribute to sustainable tourism in the destination
+* As a traveller, I want to know what are sustainable options to move around such as e-car, carpooling, bike/e-bike, public transport so that I can respecfully explore the destination
+* As a traveller I want to easily contract an agency so that I can have more information / advice before travelling ot the destination
+
 * As a tourism professionnal I would like to have more online visibility so that I can attract more clients with a green mindset to my business
-* As a tourism professionnal I would like to have more information about how to get a « Vert ‘Outre Mer » label so that I can better promote my business and sustainable practices
+* As a tourism professionnal I want to be able to support local businesses who invest in sustainable practices so that the destination can improve their offer and contribute to sustainable tourism in the destination
+* As a tourism professionnal I would like to have information about how to get a « Vert ‘Outre Mer » label so that I can better promote my business and sustainable practices
 
 
 2. Returning Visitors Goals
 
 * As a traveller, I want to see different French overseas destinations so that I can make up my mind regarding the destination to visit.
 * As a traveller, I want to see how my contribution / donation has impacted the destination to improve their sustainable practices so that evaluate my involvment
-* As a tourism professionnal I would like to communicate more about my practices and would like « Vert l’Outre Mer » to offer to write an article about my activity on their website every semester/trimester so that I can gain visibility and show my progress in terms of sustainable tourism. 
+
+* As a tourism professionnal I would like to communicate more about my practices and would like « Vert l’Outre Mer » to offer to write an article about my activity on their 
+website every semester/trimester so that I can gain visibility and show my progress in terms of sustainable tourism. 
 * As a tourism professionnal I want to be able to share articles written about my activity easily on social media so that I can attract new clients
 
 3. Frequent User Goals
 
-* As a local traveller I want to see if there are any new local events organized per month so that I can participate
-* As a tourism professionnal I want to stay informed about best practices in terms sustainable tourim so that I can improve my activities
+* As a local visitors I want to see if there are any new local events organized per month so that I can participate
+* As a tourism professionnal, I want to be informed about sustainabile news / actions so that I am aware of the latest sustainable trends and possibbly apply them to my activity 
 
 
 ### Design
@@ -69,26 +79,28 @@ Images are mainly landscapes representing each destination.
 
 All landscape photos from Reunion Island page were bought and are from `Air Lagon` a paragliding agency based in Reunion Island.
 
+* The large background  of the main page [hero image](assets/css/images/hero_image.JPG) is designed to be striking and catch the user's attention. It also has a blue/green aesthetic. Blue is to reflect the fact that you have to cross the sea to get to these specific destinations and Green is to remind that it is focus on sustainable tourism
 
-* The large background  of the main page [hero image](assets//images/xxxxx) is designed to be striking and catch the user's attention. It also has a green aesthetic in order to reflect the sustainable aspect.
 * [xxxxxx](assets/images/) has been thought to 
 * On the XXXX page , we can find. View [here](assets/images/projects_photo.jpeg)
 * [xxxxx](assets/images/) has a 
 
  b. Events/Activities photos
 
- Random web designs were selected on a website called [Behance](ttps://www.behance.net) in order to illustrate website projects.
+ Random web designs about topic "travel" were selected on a website called [Behance](ttps://www.behance.net) in order to illustrate website projects.
 
+c. Guets houses
 
 c. Restaurants
-
 
 d. Transports
 
 e. Maps
 
-
 4. Links
+
+* [xxxxxx](assets/files/)
+* [xxxxxx](assets/files/)
 * [xxxxxx](assets/files/)
 * [xxxxxx](assets/files/)
 
@@ -105,29 +117,33 @@ e. Maps
 
 ## Features
 
-* The website is structured in 4 pages : `Destinations`, `Local Events`, `News`, `About` and appears to be also a scroll one page website also. 
+* The website is structured in 4 pages : `Destinations`, `Events`, `News`, `About` and appears to be also a scroll one page website also. 
 * The website's pages and different features are responsive on all device sizes. 
-* Each page features a responsive header with navigation bar and a conventional placing of logo (top right).
-* There is a footer with copyright information and social media links.
+* Each page features a responsive header with navigation bar and a conventional placing of logo (top left).
+* There is a footer with copyright information, newsletter, and social media links.
 
 #### Destinations
 
-* The `Destination` page features a special hero image that cover the entire background of the first page. The purpose of this hero image element is to give maximum impact when opening the website.
-* A search option can be found on the top left of the screen
-* The main heading 
-* The sub heading
-* The destination list
-* At the bottom of the page (above the footer) there is one call to action `Explore`. This button is highlighted and redirect the user to the related destination.
+* The `Destinations` page features a special hero image that cover the entire background of the first page. The purpose of this hero image element is to give maximum impact when opening the website.
+* A search option can be found on the top right of the screen
+* There is a main heading in which you can read "Vert L'Outre Mer". "Vers l'Outre Mer" means towards overseas and in order to include a notion of sustainable/green aspect I used the writing "Vert" which means green.
+* The sub heading is short, impactful and invite any users to experience and learn about sustainibily in theses destinations. 
+* The destinations are presented as a list with radio buttons. The user will be redirected to the selected destination page as soon as the button "Explore" is clicked.
+* At the bottom of the page (above the footer) there is two call to action :
+    - `Explore`. This button is highlighted and redirect the user to the related destination.
+    - `Get in touch` This button will redirect to the contact page
 
 - For each destination page 
-* User can leave a general review about their experience in the destination
-* Users can leave a review about the events / activities they attended
+* Users will have access to content about guest houses, restaurants and transport recommendations
+* Users will have also a link at th end of the page that redirects to the events page
+
 
 #### Local Events
 
-* The `Local Events` page features 1 column wide for mobile devices, 2 columns wide for tablets and 4 columns wide for desktop.
+* The `Events` page features 1 column wide for mobile devices, 2 columns wide for tablets and 4 columns wide for desktop.
 * The destinations list is displayed. Users can select their destination by ticking one of the option.
 * Users can select the month and year and event list will pop up for them to review.
+* To see the events , users can choose list view or a list view. For the map view the events are placed on the map with cluster markers
 
 
 #### News
