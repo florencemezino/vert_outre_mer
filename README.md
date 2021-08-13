@@ -128,27 +128,27 @@ e. Maps
 * A search option can be found on the top right of the screen
 * There is a main heading in which you can read "Vert L'Outre Mer". "Vers l'Outre Mer" means towards overseas and in order to include a notion of sustainable/green aspect I used the writing "Vert" which means green.
 * The sub heading is short, impactful and invite any users to experience and learn about sustainibily in theses destinations. 
-* The destinations are presented as a list with radio buttons. The user will be redirected to the selected destination page as soon as the button "Explore" is clicked.
+* The destinations are presented with a dropdown menu. The user will be redirected to the selected destination page as soon as the button "Explore" is clicked.
 * At the bottom of the page (above the footer) there is two call to action :
-    - `Explore`. This button is highlighted and redirect the user to the related destination.
-    - `Get in touch` This button will redirect to the contact page
+    - `Explore`. This button is highlighted and redirect the user to the related destination information
+    - `Get in touch` This button will redirect to the Contact page.
 
 - For each destination page 
 * Users will have access to content about guest houses, restaurants and transport recommendations
-* Users will have also a link at th end of the page that redirects to the events page
+* Users will have also a link at the end of the page that redirects to the `Events` page
 
 
 #### Local Events
 
 * The `Events` page features 1 column wide for mobile devices, 2 columns wide for tablets and 4 columns wide for desktop.
-* The destinations list is displayed. Users can select their destination by ticking one of the option.
-* Users can select the month and year and event list will pop up for them to review.
-* To see the events , users can choose list view or a list view. For the map view the events are placed on the map with cluster markers
+* The destinations list is displayed as dropdown. Users can select their destination by clicking one of the option.
+* Users can select the month and year and a event list will pop up for them to review.
+* To see the events, users has access to a list view by default and can switch to a map view. For the map view the events are placed on the map with cluster markers
 
 
 #### News
 * The `News` page features 1 column wide for mobile devices, 2 columns wide for tablets and 4 columns wide for desktop. 
-* This page show cases a list of news/ article about sustainability
+* This page show cases a list of news/ articles about sustainability in the tourism industry of these destinations
 * 
 * 
 
@@ -183,7 +183,7 @@ In the mobile version the navigation bar is turn into a hamburger menu for a use
 
 ### Features to implement in the future
 
-* Add more French Overseas destinations
+* Add more French Overseas destinations page
 * Add Captcha on the contact form in the Contact page for security purposes.
 * Translate website content in French option
 * Be GDPR compliant by including a pop-up allowing all new visitors to the website to approve or deny the processing of their personal data. (relevant for the Contact page / contact form)
