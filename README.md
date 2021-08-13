@@ -1,4 +1,4 @@
-# Next holidays destination: France Overseas
+# Next holidays destination: France Overseas - Vert l'Outre Mer
 
 [View the live project here](link)
 
@@ -106,13 +106,13 @@ e. Maps
 
 ### Wireframes
 
-1. All Wireframes - [View](assets/wireframes/all_wireframes_vert_l'outre_mer.pdf)
+1. All Wireframes - [View](assets/wireframes/all_wireframes_vert_loutre_mer.pdf)
 
-2. Mobile Wireframes - [View](assets/wireframes/mobile_wireframes_vert_l'outre_mer.pdf)
+2. Mobile Wireframes - [View](assets/wireframes/mobile_wireframes_vert_loutre_mer.pdf)
 
-3. Tablet Wireframes - [View](assets/wireframes/web_wireframes_vert_l'outre_mer.pdf)
+3. Tablet Wireframes - [View](assets/wireframes/web_wireframes_vert_loutre_mer.pdf)
 
-4. Web Wireframes - [View](assets/wireframes/web_wireframes_vert_l'outre_mer.pdf)
+4. Web Wireframes - [View](assets/wireframes/web_wireframes_vert_loutre_mer.pdf)
 
 
 ## Features
@@ -129,10 +129,9 @@ e. Maps
 * There is a main heading in which you can read "Vert L'Outre Mer". "Vers l'Outre Mer" means towards overseas and in order to include a notion of sustainable/green aspect I used the writing "Vert" which means green.
 * The sub heading is short, impactful and invite any users to experience and learn about sustainibily in theses destinations. 
 * The destinations are presented with a dropdown menu. The user will be redirected to the selected destination page as soon as the button "Explore" is clicked.
-* At the bottom of the page (above the footer) there is two call to action :
+* At the bottom of the page (above the footer) there is one call to action :
     - `Explore`. This button is highlighted and redirect the user to the related destination information
-    - `Get in touch` This button will redirect to the Contact page.
-
+   
 - For each destination page 
 * Users will have access to content about guest houses, restaurants and transport recommendations
 * Users will have also a link at the end of the page that redirects to the `Events` page
