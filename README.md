@@ -63,9 +63,10 @@ website every semester/trimester so that I can gain visibility and show my progr
 ### Design
 
 1. Colour Scheme
-The two main colours used for this project are as follow : 
-* `#67A759` : clear green 
+The main colours used for this project are as follow : 
+* `#67A759` : bright green
 * `#666666` : dark grey
+* `#D5A837`: dark yellow
 
 2. Typography
 The `Montserrat` font is the main font used throughout the whole website with `sans-serif`
