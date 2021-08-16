@@ -18,6 +18,20 @@ html, body {
 
 /* -------------------------------------------------------------------------------------------- Home index*/
 
+/* Nav bar*/
+
+.fab {
+    color: #fafafa;
+    margin-right: 0.5em;
+    line-height: 40px;
+}
+
+.fab:hover {
+    color: darkgoldenrod;
+}
+
+
+/* Hero text */
 h1 {
     font-size: 120px;
 }
@@ -27,9 +41,9 @@ h2 {
     font-size: 50px;
 }
 
-
 .btn-explore {
-    color : blueviolet;
+    background-color :darkgoldenrod;
+    border : none;
 }
 
 
