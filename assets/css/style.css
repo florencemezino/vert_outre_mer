@@ -68,6 +68,7 @@ h1 {
 h2 {
     font-size: 200px;
     font-weight: 100;
+    margin-top: 50px;
 
 }
 
@@ -80,6 +81,11 @@ h2 {
     background-color : #146A84;
 }
 
+/* Newsletter */
+
+.newsletter {
+    font-size: 20px;
+}
 
 /* -------------------------------------------------------------------------------------------- Header*/
 
@@ -106,6 +112,7 @@ h2 {
 
 .contact-text {
     margin-top: 20px;
+    margin-bottom: 10px;
     position: relative;
     text-align: center;
 }
