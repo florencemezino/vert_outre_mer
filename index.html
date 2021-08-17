@@ -69,16 +69,34 @@
 
  <!-- Destinations -->
     <main>        
-      <div class="container-fluid hero-image" style="background-image: url('assets/css/images/hero_image.JPG'); width: 100%; height:100vh;"> 
-        <div class="col-lg-12">
-        <div class='global-home-bg px-4 pt-5 my-5 text-center' cz-shortcut-listen="true" >
-          <h1 class="display-4 fw-bold">Vert l'Outre Mer</h1>
-        <div class="col-lg-6 mx-auto">
-          <h2 class="lead mb-4 lead-subtext">Sustainable Tourism in France Overseas. Discover French destinations in a fun and responsible way!</h2>
-        </div>
       <div class="col-lg-12">
-        <button type="button" class="btn btn-success btn-lg px-4 me-sm-3 btn-explore" onclick="window.open('experiences.html','_self');">Explore</button>
-        <button type="button" class="btn btn-secondary btn-lg px-4 me-sm-3 btn-contact" onclick=" window.open('contact.html','_self');">Get in touch</button>
+        <div class="container-fluid hero-image" style="background-image: url('assets/css/images/hero_image.JPG'); width: 100%; height:100vh;"> 
+          <div class='global-home-bg px-4 pt-5 my-5 text-center' cz-shortcut-listen="true" >
+            <h1 class="display-4 fw-bold">Vert l'Outre Mer</h1>
+          <div class="col-lg-6 mx-auto">
+            <h2 class="lead mb-4 lead-subtext">Sustainable Tourism in France Overseas. Discover French destinations in a fun and responsible way!</h2>
+          </div>
+
+      <div class="col-lg-12">
+        <div class="dropdown show">
+          <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Select a destination
+          </a>
+      <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+        <a class="dropdown-item" href="destinations/guadeloupe.html">Guadeloupe</a>
+        <a class="dropdown-item" href="destinations/saintmartin.html">Saint Martin</a>
+        <a class="dropdown-item" href="destinations/saintbarthelemy.html">Saint Barthelemy</a>
+        <a class="dropdown-item" href="destinations/martinique.html">Martinique</a>
+        <a class="dropdown-item" href="destinations/frenchguiana.html">French Guiana</a>
+        <a class="dropdown-item" href="destinations/reunionisland.html">Reunion Island</a>
+        <a class="dropdown-item" href="destinations/saintpierreetmiquelon.html">Saint Pierre et Miquelon</a>
+        <a class="dropdown-item" href="destinations/mayotte.html">Mayotte</a>
+        <a class="dropdown-item" href="destinations/newcaledonia.html">New Caledonia</a>
+        <a class="dropdown-item" href="destinations/frenchpolynesia">French Polynesia</a>
+      </div>
+      <button type="button" class="btn btn-success btn-lg px-4 me-sm-3 btn-explore" onclick="window.open('experiences.html','_self');">Explore</button>
+      <button type="button" class="btn btn-secondary btn-lg px-4 me-sm-3 btn-contact" onclick=" window.open('contact.html','_self');">Get in touch</button>
+      </div>
       </div>
       </div>
       </div>
@@ -87,26 +105,26 @@
 <!-- Destinations -->
 
   <!-- Fixed footer -->
-  <footer class="footer mt-auto py-3 bg-light fixed-bottom">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-lg-6 col-md-6 col-sm-4">
-          <span class="text-muted"><i class="fa fa-copyright" aria-hidden="true"></i>Copyright 2021</span>
-        </div>
-        <div class="col-lg-6 col-md-6 col-sm-4"> 
-        <form>
-          <h5>Subscribe to our newsletter</h5>
-          <p>Monthly digest of whats new and exciting from us.</p>
-          <div class="d-flex w-100 gap-2">
-            <label for="newsletter1" class="visually-hidden">Email address</label>
-            <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
-            <button class="btn-sm btn-success btn-explore" type="button">Subscribe</button>
+    <footer class="footer mt-auto py-2 bg-light fixed-bottom">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-4">
+              <span class="text-muted">Copyright 2021</span>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-4"> 
+            <form class="newsletter">
+              <h5>Subscribe to our newsletter</h5>
+              <p>Monthly digest of whats new and exciting from us.</p>
+              <div class="d-flex w-100 gap-2">
+                <label for="newsletter1" class="visually-hidden">Email address</label>
+                <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                <button class="btn-sm btn-success btn-explore" type="button">Subscribe</button>
+              </div>
+            </form>
+            </div>
           </div>
-        </form>
-        </div>
-      </div>
-    </div> 
-</footer>
+        </div> 
+    </footer>
     <!--./ Fixed footer -->
     <!-- JavaScript Bundle with Popper -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
