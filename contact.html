@@ -15,6 +15,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
     <link rel ="stylesheet" href="assets/css/style.css">
     <title>Vert l'Outre Mer</title>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+    (function(){
+        emailjs.init("user_pSio7jAQN6vTYoVlYFvIi");
+        emailjs.send("gmail","reception_request",{name: "France Overseas", notes: "Here is my request..."});
+    })();
+    </script>
 </head>
 
 <body>
@@ -85,8 +94,14 @@
     <div class="container-fluid" style="margin-left:100px; margin-right:100px;">       
         <div class="row">
             <div class="col-lg-6">
-                <form id="form-details">
+                <form id="form-details" onsubmit="return sendMail(this);">
                     <h1 class="display-5 fw-bold lh-1 mb-3">Get in touch !</h3>
+                    <div class="form-group">
+                        <input type="radio" id="traveller" name="customer_status" value="Traveller">
+                        <label for="traveller">Traveller</label>
+                        <input type="radio" id="professionnal" name="customer_status" value="Professionnal">
+                        <label for="professionnal">Professionnal</label>
+                    </div>
                     <div class="form-group">
                         <label for="exampleInputName" class="form-label required-input">Name</label>
                         <input type="text" class="form-control" id="exampleInputName" placeholder="name" required>
@@ -103,76 +118,41 @@
                     <input type="submit" id="btn-send" class="btn btn-dark btn-md btn-block btn-explore" value="Send"/>
                     </div>
                 </form>
-            </div>
             <div class="col-lg-6">
-                <img src="assets/css/images/getintouch.JPG" style="max-width: 100%; height:auto; border-radius: 3%; margin-top: 125px;" class="img-fluid" alt="two paraglyders in the sky">
-            </div>  
+                <img src="assets/css/images/getintouch.JPG" style="max-width: 100%; height:auto; border-radius: 0.5%; margin-top: 125px;" class="img-fluid" alt="two paraglyders in the sky">
+            </div> 
         </div> 
-        
+    </div> 
+    
             <!-- Contact form + photo --> 
 
-    
-<section>
-    <div class="container-fluid" style="margin-left:100px; margin-right:100px;">
-        <div class="row">
-          <div class="col-sm-12">
-            <h3 class= contact-title>About</h3>
-            <p class= "contact-text">Vert l'Outre Mer by France Overseas is an agency dedicated to help travellers find the perfect destination for their next holidays. 
-                <br>We aim to make the travel industry more green, so we help tourim professionnals to obtain recognition for their sustainable practices with the "Vert l'Outre Mer" green label.</p>
-          </div>
-        </div>
-          <div class="col-lg-6">
-              <form id="form-details">
-                  <h1 class="display-5 fw-bold lh-1 mb-3">Get in touch !</h3>
-                  <div class="form-group">
-                      <label for="exampleInputName" class="form-label required-input">Name</label>
-                      <input type="text" class="form-control" id="exampleInputName" placeholder="name" required>
-                  </div>
-                  <div class="form-group">
-                      <label for="exampleInputEmail1" class="form-label required-input">Email address</label>
-                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="name@email.com" required>
-                      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                  </div>
-                  <div class="form-group">
-                      <label for="exampleFormControlTextarea1" class="form-label required-input">Your message</label>
-                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="type your request here" required></textarea>
-                  </div>
-                  <input type="submit" id="btn-send" class="btn btn-dark btn-md btn-block btn-explore" value="Send"/>
-                  </div>
-              </form>
-        <div class="col-lg-6">
-        <img src="assets/images/getintouch.JPG" alt="two flying paragliders">
-            </div>     
-          </div>
-      </div>
-    </section>      
-
-
   <!-- Fixed footer -->
-    <footer class="footer mt-auto py-3 bg-light fixed-bottom">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-6 col-sm-4">
-              <span class="text-muted">Copyright 2021</span>
-            </div>
-            <div class="col-6 col-sm-4"> 
-            <form>
-              <h5>Subscribe to our newsletter</h5>
-              <p>Monthly digest of whats new and exciting from us.</p>
-              <div class="d-flex w-100 gap-2">
-                <label for="newsletter1" class="visually-hidden">Email address</label>
-                <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
-                <button class="btn-sm btn-success btn-explore" type="button">Subscribe</button>
-              </div>
-            </form>
-            </div>
+  <footer class="footer mt-auto py-3 bg-light fixed-bottom">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-4">
+          <span class="text-muted"><i class="fa fa-copyright" aria-hidden="true"></i>Copyright 2021</span>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-4"> 
+        <form>
+          <h5>Subscribe to our newsletter</h5>
+          <p>Monthly digest of whats new and exciting from us.</p>
+          <div class="d-flex w-100 gap-2">
+            <label for="newsletter1" class="visually-hidden">Email address</label>
+            <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+            <button class="btn-sm btn-success btn-explore" type="button">Subscribe</button>
           </div>
-        </div> 
-    </footer>
+        </form>
+        </div>
+      </div>
+    </div> 
+</footer>
     <!--./ Fixed footer -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+  <script src="assets/js/sendEmail.js"></script>
 </body>
 </html>

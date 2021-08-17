@@ -73,12 +73,18 @@ h2 {
 }
 
 .btn-explore {
+    color: #fafafa;
     background-color :darkgoldenrod;
     border : none;
 }
 
 .btn-explore:hover {
+    color : #146A84;
     background-color : #146A84;
+
+    color: darkgoldenrod;
+    background-color :#fafafa;
+    border : none;
 }
 
 /* Newsletter */
