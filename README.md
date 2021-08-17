@@ -34,7 +34,7 @@ Also new pratices will help to attract new customers.
 1. First Time Visitor Goals
 
 * As a traveller, I want to have an overview of the French overseas destinations so that I can identidy my destination options 
-* As a traveller, I want to see the upcoming events in a chosen destination so that I can organise my activities during my stay.
+* As a traveller, I want to see the upcoming events/experiences in a chosen destination so that I can organise my activities during my stay.
 * A s a traveller, I want to see ideas about places to stay such as guest houses so that I can meet locals and experience the destination in a authentic way.
 * As a traveller, I want to have access to a list of local restaurants which have good sustainable practices so that I can discover and enjoy great local food specialities
 * As a traveller, I want to know what are sustainable options to move around such as e-car, carpooling, bike/e-bike, public transport so that I can respecfully explore the destination
@@ -56,7 +56,7 @@ website every semester/trimester so that I can gain visibility and show my progr
 
 3. Frequent User Goals
 
-* As a local visitors I want to see if there are any new local events organized per month so that I can participate
+* As a local visitors I want to see if there are any new local events/experiences organized per month so that I can participate
 * As a tourism professionnal, I want to be informed about sustainabile news / actions so that I am aware of the latest sustainable trends and possibbly apply them to my activity 
 
 
@@ -86,11 +86,11 @@ All landscape photos from Reunion Island page were bought and are from `Air Lago
 * On the XXXX page , we can find. View [here](assets/images/projects_photo.jpeg)
 * [xxxxx](assets/images/) has a 
 
- b. Events/Activities photos
+ b. Experiences/Activities photos
 
  Random web designs about topic "travel" were selected on a website called [Behance](ttps://www.behance.net) in order to illustrate website projects.
 
-c. Guets houses
+c. Guest houses
 
 c. Restaurants
 
@@ -118,7 +118,7 @@ e. Maps
 
 ## Features
 
-* The website is structured in 4 pages : `Destinations`, `Events`, `News`, `About` and appears to be also a scroll one page website also. 
+* The website is structured in 4 pages : `Destinations`, `Experiences`, `News`, `About` and appears to be also a scroll one page website also. 
 * The website's pages and different features are responsive on all device sizes. 
 * Each page features a responsive header with navigation bar and a conventional placing of logo (top left).
 * There is a footer with copyright information, newsletter, and social media links.
@@ -135,15 +135,15 @@ e. Maps
    
 - For each destination page 
 * Users will have access to content about guest houses, restaurants and transport recommendations
-* Users will have also a link at the end of the page that redirects to the `Events` page
+* Users will have also a link at the end of the page that redirects to the `Experiences` page
 
 
-#### Local Events
+#### Experiences
 
-* The `Events` page features 1 column wide for mobile devices, 2 columns wide for tablets and 4 columns wide for desktop.
+* The `Experiences` page features 1 column wide for mobile devices, 2 columns wide for tablets and 4 columns wide for desktop.
 * The destinations list is displayed as dropdown. Users can select their destination by clicking one of the option.
 * Users can select the month and year and a event list will pop up for them to review.
-* To see the events, users has access to a list view by default and can switch to a map view. For the map view the events are placed on the map with cluster markers
+* To see the experiences, users has access to a list view by default and can switch to a map view. For the map view the experiences are placed on the map with cluster markers
 
 
 #### News
@@ -182,8 +182,8 @@ In the mobile version the navigation bar is turning into a hamburger menu for a 
 * `Destinations`: Allows travellers to connect emotionnally with the sustainability aspect of the destinations. 
     - specificity : Give access to one landing page per destination with practical informations
 
-* `Events` : Allows travellers to identify events and activities in order ot organize their trip
-    - specificity : Give an overview of events related to sustainable tourism for each destinations and per date
+* `Experiences` : Allows travellers to identify events/experiences and activities in order ot organize their trip
+    - specificity : Give an overview of experiences related to sustainable tourism for each destination and per date
 
 * `News` : Allows travellers and tourism professionnals to have an overview of the latest sustainable information in french overseas destinations. 
     - specificity : Give an overvoiw of the latest news in a chronological order. Latest information are in the top and a paging feature will allow to navigate within the previous published article.
@@ -314,7 +314,7 @@ Readme.md sample from Anna Greaves's portrait artist [View](https://github.com/A
 
 ## FAQ
 
-#### Question 1 : Where are sources the information about the local events ?
+#### Question 1 : Where are sources the information about the experiences ?
 
 xxxxxx
 

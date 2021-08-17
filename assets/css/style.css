@@ -83,7 +83,8 @@ h2 {
 
 /* Newsletter */
 
-.newsletter {
+.newsletter-title {
+    color : #146A84;
     font-size: 20px;
 }
 
@@ -115,6 +116,18 @@ h2 {
     margin-bottom: 10px;
     position: relative;
     text-align: center;
+}
+
+.btn-contact{
+    color: #fafafa;
+    background-color :#545B62;
+    border : none;
+}
+
+.btn-contact:hover{
+    color: #545B62;
+    background-color :#fafafa;
+    border : none;
 }
 
 
