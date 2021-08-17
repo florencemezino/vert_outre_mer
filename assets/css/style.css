@@ -16,9 +16,16 @@ html, body {
 
 }
 
-/* -------------------------------------------------------------------------------------------- Home index*/
+/* -------------------------------------------------------------------------------------------- Header*/
+/* Nav bar */
 
-/* Nav bar*/
+.nav-bar {
+    color: #fafafa;
+}
+
+.navbar-brand:hover {
+    color : #146A84;
+}
 
 .nav-item {
     color: #fafafa;
@@ -47,14 +54,27 @@ html, body {
     color: darkgoldenrod;
 }
 
+/* -------------------------------------------------------------------------------------------- Footer*/
 
-/* Hero */
+/* Newsletter */
 
-.hero-image {
-    margin-left : 0;
-    margin-right: 0;
-    position: relative;
+.newsletter-title {
+    color : #146A84;
+    font-size: 20px;
 }
+
+.badge-newsletter {
+    color : #fafafa;
+    background-color : #146A84;
+    letter-spacing: 2px;
+}
+
+.copyright-style {
+    color : #146A84;
+}
+
+/* -------------------------------------------------------------------------------------------- Destinations */
+/* Hero */
 
 
 h1 {
@@ -76,41 +96,16 @@ h2 {
     color: #fafafa;
     background-color :darkgoldenrod;
     border : none;
-    background-color: Transparent;
-    background-repeat:no-repeat;
-    border: none;
-    cursor:pointer;
-    overflow: hidden;
-    outline:none;
 }
 
 .btn-explore:hover {
-    color : #146A84;
+    color : #fafafa;
     background-color : #146A84;
-
-    color: darkgoldenrod;
-    background-color :#fafafa;
     border : none;
 }
 
-/* Newsletter */
 
-.newsletter-title {
-    color : #146A84;
-    font-size: 20px;
-}
-
-/* -------------------------------------------------------------------------------------------- Header*/
-
-/* -------------------------------------------------------------------------------------------- Footer*/
-
-
-
-/* -------------------------------------------------------------------------------------------- Destinations*/
-
-
-
-/* -------------------------------------------------------------------------------------------- Events*/
+/* -------------------------------------------------------------------------------------------- Experiences*/
 
 
 /* -------------------------------------------------------------------------------------------- News*/

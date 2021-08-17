@@ -21,7 +21,7 @@
     <script type="text/javascript">
     (function(){
         emailjs.init("user_pSio7jAQN6vTYoVlYFvIi");
-        emailjs.send("gmail","reception_request",);
+        emailjs.send("gmail","reception_request",{name: "France Overseas", notes: "Here is my request..."});
     })();
     </script>
 </head>
@@ -93,7 +93,7 @@
     <!-- Contact form + photo --> 
     <div class="container-fluid" style="margin-left:100px; margin-right:100px;">       
         <div class="row">
-            <div class="col-lg-6">
+            <div class="col-lg-6 col-md-6 col-sm-4">
                 <form id="form-details" onsubmit="return sendMail(this);">
                     <h1 class="display-5 fw-bold lh-1 mb-3">Get in touch !</h3>
                     <div class="form-group">
@@ -138,7 +138,7 @@
                 </div>
                 </form>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6 col-md-6 col-sm-4">
                 <img src="assets/css/images/getintouch.JPG" style="max-width: 100%; height:auto; border-radius: 0.5%; margin-top: 125px;" class="img-fluid" alt="two paraglyders in the sky">
             </div> 
         </div> 
@@ -147,16 +147,16 @@
     <!-- Contact form + photo --> 
 
   <!-- Fixed footer -->
-  <footer class="footer mt-auto py-3 bg-light fixed-bottom">
+  <footer class="footer mt-auto py-2 bg-light fixed-bottom">
     <div class="container-fluid">
       <div class="row">
         <div class="col-lg-6 col-md-6 col-sm-4">
-          <span class="text-muted"><i class="fa fa-copyright" aria-hidden="true"></i>Copyright 2021</span>
+          <span class="uppercase general-sub text-muted">All rights reserved</span><br>
+          <span class="text-muted copyright-style"><i class="fa fa-copyright" aria-hidden="true"></i>Copyright 2021</span>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-4"> 
-        <form>
-          <h5>Subscribe to our newsletter</h5>
-          <p>Monthly digest of whats new and exciting from us.</p>
+        <form class="newsletter">
+          <p><span class="badge badge-pill badge-newsletter">newsletter</span>Weekly digest of whats new and exciting from us.</p>
           <div class="d-flex w-100 gap-2">
             <label for="newsletter1" class="visually-hidden">Email address</label>
             <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
@@ -167,7 +167,7 @@
       </div>
     </div> 
 </footer>
-    <!--./ Fixed footer -->
+<!--./ Fixed footer -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
