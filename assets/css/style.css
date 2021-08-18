@@ -116,6 +116,15 @@ div#map {min-height: 600px; min-width: 850px;}
     color : #fafafa;
 }
 
+.main-article {
+    background-color : #146A84;
+
+}
+
+.label-article {
+    color: darkgoldenrod;
+
+}
 /* -------------------------------------------------------------------------------------------- Contact */
 
 .contact-title {
