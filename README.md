@@ -284,6 +284,14 @@ All content for illustrations (pictures, icons, photos) can  be found within the
 
 ## Credits
 
+### Code
+
+* Code Institute rosie's resume project : Interactive Front end Development [Here](https://github.com/Code-Institute-Solutions/InteractiveFrontendDevelopment-Resume)
+
+* Stack overflow [View](https://stackoverflow.com/)
+
+
+
 ### Content 
 
 * All content was written by the developer.
@@ -298,7 +306,6 @@ Readme.md sample from Anna Greaves's portrait artist [View](https://github.com/A
 
 * Behance for design inspirations [View](https://www.behance.net/)
 
-* 
 
 ### Media
 

@@ -67,7 +67,7 @@
   </header>
     <!--./Fixed navbar --> 
 
- <!-- Events -->
+ <!-- Experiences -->
 
     <div class="container col-xxl-8 px-4 py-5">
       <div class="row align-items-center g-5 py-5">
@@ -79,18 +79,18 @@
               Select a destination
             </a>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-              <a class="dropdown-item" href="destinations/guadeloupe.html">Guadeloupe</a>
-              <a class="dropdown-item" href="destinations/saintmartin.html">Saint Martin</a>
-              <a class="dropdown-item" href="destinations/saintbarthelemy.html">Saint Barthelemy</a>
-              <a class="dropdown-item" href="destinations/martinique.html">Martinique</a>
-              <a class="dropdown-item" href="destinations/frenchguiana.html">French Guiana</a>
-              <a class="dropdown-item" href="destinations/reunionisland.html">Reunion Island</a>
-              <a class="dropdown-item" href="destinations/saintpierreetmiquelon.html">Saint Pierre et Miquelon</a>
-              <a class="dropdown-item" href="destinations/mayotte.html">Mayotte</a>
-              <a class="dropdown-item" href="destinations/newcaledonia.html">New Caledonia</a>
-              <a class="dropdown-item" href="destinations/frenchpolynesia">French Polynesia</a>
+              <a class="dropdown-item" href="destinations/guadeloupe.html" value="guadeloupe">Guadeloupe</a>
+              <a class="dropdown-item" href="destinations/saintmartin.html" value="saintmartin">Saint Martin</a>
+              <a class="dropdown-item" href="destinations/saintbarthelemy.html" value="saintbarthelemy">Saint Barthelemy</a>
+              <a class="dropdown-item" href="destinations/martinique.html" value="martinique">Martinique</a>
+              <a class="dropdown-item" href="destinations/frenchguiana.html" value="frenchguiana">French Guiana</a>
+              <a class="dropdown-item" href="destinations/reunionisland.html" value="reunionisland">Reunion Island</a>
+              <a class="dropdown-item" href="destinations/saintpierreetmiquelon.html" value="saintpierreetmiquelon">Saint Pierre et Miquelon</a>
+              <a class="dropdown-item" href="destinations/mayotte.html" value="mayotte">Mayotte</a>
+              <a class="dropdown-item" href="destinations/newcaledonia.html" value="newcaledonia">New Caledonia</a>
+              <a class="dropdown-item" href="destinations/frenchpolynesia" value="frenchpolynesia">French Polynesia</a>
             </div>
-            <button type="button" class="btn btn-secondary btn-lg px-4 me-md-2 btn-explore">Search</button>
+            <button type="button" class="btn btn-secondary btn-lg px-4 me-md-2 btn-explore" value="Select" onclick="optionClicked()">Search</button>
           </div>
         </div>
          <!-- Maps API-->
@@ -101,8 +101,9 @@
         </div>
       <!--./ Maps API-->
       </div>
+  
 
-<!--./ Event -->
+
 
   <!-- Fixed footer -->
   <footer class="footer mt-auto py-2 bg-light fixed-bottom">
