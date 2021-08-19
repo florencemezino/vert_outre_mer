@@ -183,12 +183,13 @@ const destinations = {
 
 	"Mayotte" : {
         events: [{          
-            name : "Sustainable Cities Conference",
-			description : "Learn how Guadeloupe is starting the green revolution to prepare the world of tomorrow",
-            date : "Sep 22, 2021",
+            name : "Mamoudzou Beach Cleaning",
+			description : "Join Mamoudzou Climate Association to help clean up the beach. Gloves and bags provided.",
+			price : "free",
+            date : "Aug 30, 2021",
 			localTime: "02.00 pm",
-            city: "Basse Terre",
-            location :[15.99854, -61.72548]
+            city: "Mamoudzou",
+            location :[55.5833, -61.72548]
         },
     ],
         description: {
@@ -201,12 +202,13 @@ const destinations = {
 
 	"New Caledonia" : {
         events: [{          
-            name : "Sustainable Cities Conference",
-			description : "Learn how Guadeloupe is starting the green revolution to prepare the world of tomorrow",
-            date : "Sep 22, 2021",
-			localTime: "02.00 pm",
-            city: "Basse Terre",
-            location :[15.99854, -61.72548]
+            name : "Opening : Coral Park Noumea ",
+			description : "Learn about corals life and discover how the park is contributing to rebuild / maintain the barrier reef against climate change",
+			price : "7 EUR per person, free for children until 12 years old",
+            date : "Sep 6, 2021",
+			localTime: "10.00 am",
+            city: "Noumea",
+            location :[-22.275801, 166.457993]
         },
     ],
         description: {
@@ -219,12 +221,13 @@ const destinations = {
 
 	"French Polynesia" : {
         events: [{          
-            name : "Sustainable Cities Conference",
-			description : "Learn how Guadeloupe is starting the green revolution to prepare the world of tomorrow",
+            name : "Journey at Papeete Pearl Farming",
+			description : "Papeete Pearl farm is opening exceptionnaly to the public. Come and discover how we managed to make this activity sustainable while respecting the animals life",
+			price : "7 EUR per person, free for children until 12 years old",
             date : "Sep 22, 2021",
 			localTime: "02.00 pm",
             city: "Basse Terre",
-            location :[15.99854, -61.72548]
+            location :[ -17.535000, -149.569600]
         },
     ],
         description: {
