@@ -48,12 +48,13 @@ const destinations = {
 
 	"Saint Barthelemy" : {
         events: [{          
-            name : "Sustainable Cities Conference",
-			description : "Learn how Guadeloupe is starting the green revolution to prepare the world of tomorrow",
-            date : "Sep 22, 2021",
-			localTime: "02.00 pm",
-            city: "Basse Terre",
-            location :[15.99854, -61.72548]
+            name : "Saint Barth's Marathon",
+			description : "This year, Saint Barth's Marathon is running for the Climate. Come and run for the good cause.",
+			price : "10 EUR per person",
+            date : "Sep 5, 2021",
+			localTime: "10.00 am",
+            city: "Gustavia",
+            location :[17.900000, -62.8333]
         },
     ],
         description: {
@@ -66,12 +67,23 @@ const destinations = {
 
 	"Martinique" : {
         events: [{          
-            name : "Sustainable Cities Conference",
-			description : "Learn how Guadeloupe is starting the green revolution to prepare the world of tomorrow",
-            date : "Sep 22, 2021",
-			localTime: "02.00 pm",
-            city: "Basse Terre",
-            location :[15.99854, -61.72548]
+            name : "Fort de France eBike tour",
+			description : "Visit the beautiful city of Fort de France in a sustainable way.  ",
+			price : "8 EUR per person",
+            date : "Aug 31, 2021",
+			localTime: "10.00 am",
+            city: "Fort de France",
+            location :[14.600000, -61.083302]
+        },
+
+		{          
+            name : "Culinary trip du Petit Manoir",
+			description : "Visit the beautiful city of Fort de France in a sustainable way.  ",
+			price : "20 EUR per person",
+            date : "Aug 31, 2021",
+			localTime: "10.00 am",
+            city: "Le Lamentin",
+            location :[14.614367, -61.011064]
         },
     ],
         description: {
@@ -84,12 +96,22 @@ const destinations = {
 
 	"French Guiana" : {
         events: [{          
-            name : "Sustainable Cities Conference",
-			description : "Learn how Guadeloupe is starting the green revolution to prepare the world of tomorrow",
-            date : "Sep 22, 2021",
+            name : "Opening : La Ferme Urbaine de Paulette ",
+			description : "Come and visit this atypic sustainable farm in the middle of the city. Activity feeding the animals possible",
+            date : "Sep 2, 2021",
 			localTime: "02.00 pm",
-            city: "Basse Terre",
-            location :[15.99854, -61.72548]
+            city: "Cayenne",
+            location :[4.937200, -61.72548]
+        },
+
+		{          
+            name : "Guided visit of monkey mountain",
+			description : "Meet different species of monkeys during this memorable half day trip",
+			price: "15 EUR",
+            date : "Sep 2, 2021",
+			localTime: "02.00 pm",
+            city: "Kourou",
+            location :[4.937200, -61.72548]
         },
     ],
         description: {
@@ -121,12 +143,13 @@ const destinations = {
 
 	"Saint Pierre et Miquelon" : {
         events: [{          
-            name : "Sustainable Cities Conference",
-			description : "Learn how Guadeloupe is starting the green revolution to prepare the world of tomorrow",
-            date : "Sep 22, 2021",
+            name : "Opening : La Ferme Urbaine de Paulette ",
+			description : "Come and visit this atypic sustainable farm in the middle of the city. Activity feeding the animals possible",
+			price: "2 EUR per adult, free for children until 12 years old",
+            date : "Sep 2, 2021",
 			localTime: "02.00 pm",
-            city: "Basse Terre",
-            location :[15.99854, -61.72548]
+            city: "Saint-Pierre",
+            location :[47.0975, -56.3814]
         },
     ],
         description: {
