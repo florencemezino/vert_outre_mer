@@ -231,8 +231,8 @@ GitHub is used to store the projects code after being pushed from Git.
 7. [Balsamiq](https://balsamiq.com/)
 Balsamiq was used to create [the wireframes](All Wireframes.pdf) during the design process.
 
-8. [Google Maps API](https://cloud.google.com/maps-platform)
-Google Maps Api was used to illustrates were are located the local evets in the destination
+8. [Leaflet mapbox](https://leafletjs.com/examples/quick-start/)
+ Leaflet, open-source JavaScript library for mobile-friendly interactive maps was used to illustrates were are located the experiences in each destination on a map.
 
 9. [EmailJS](https://www.emailjs.com/)
 EmailJs was used to allow users to send emails to  agency to request information.
@@ -290,7 +290,7 @@ All content for illustrations (pictures, icons, photos) can  be found within the
 
 * Stack overflow [View](https://stackoverflow.com/)
 
-* Leaflet mapbox : [View](https://leafletjs.com/examples/quick-start/)
+* Leaflet mapbox youtube tutorial / quick start : [View](https://leafletjs.com/examples/quick-start/)
 
 * Eventbrite api : [View](https://www.eventbrite.com/platform/api#/introduction/expansions/requesting-expansions)
 
