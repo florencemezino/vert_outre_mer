@@ -290,7 +290,11 @@ All content for illustrations (pictures, icons, photos) can  be found within the
 
 * Stack overflow [View](https://stackoverflow.com/)
 
+* Leaflet mapbox : [View](https://leafletjs.com/examples/quick-start/)
 
+* Eventbrite api : [View](https://www.eventbrite.com/platform/api#/introduction/expansions/requesting-expansions)
+
+* EmailJS contact form: [View](https://www.emailjs.com/docs/tutorial/creating-contact-form/)
 
 ### Content 
 
