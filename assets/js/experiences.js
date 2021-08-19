@@ -7,10 +7,17 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
     id: 'mapbox/streets-v11',
     tileSize: 512,
     zoomOffset: -1,
-    accessToken: 'your.mapbox.access.token'
+    accessToken: 'pk.eyJ1IjoiZmxvcmVuY2Vtem4iLCJhIjoiY2tzaXpxdm0xMjNrMTJ1cDIzZDJwM2IwYiJ9.Zq9EUXd9jrZCk4ppkwdCZg'
 }).addTo(mymap);
 
 /*
+function onMapClick(e) {
+    alert("You clicked the map at " + e.latlng);
+}
+
+mymap.on('click', onMapClick);
+
+
 
 const destinations = {
     "Guadeloupe" : {
