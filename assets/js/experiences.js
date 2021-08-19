@@ -96,12 +96,13 @@ const destinations = {
 
 	"French Guiana" : {
         events: [{          
-            name : "Opening : La Ferme Urbaine de Paulette ",
-			description : "Come and visit this atypic sustainable farm in the middle of the city. Activity feeding the animals possible",
-            date : "Sep 2, 2021",
-			localTime: "02.00 pm",
+            name : "Cayenne Chili Pepper Festival",
+			description : "Challenege your taste buds and come experience the famous local chili : Cayenne Chili Pepper in every shape",
+			price : "free",
+            date : "Oct 10, 2021",
+			localTime: "10.00 am",
             city: "Cayenne",
-            location :[4.937200, -61.72548]
+            location :[4.937200, 52.326000]
         },
 
 		{          
@@ -111,12 +112,12 @@ const destinations = {
             date : "Sep 2, 2021",
 			localTime: "02.00 pm",
             city: "Kourou",
-            location :[4.937200, -61.72548]
+            location :[5.159700, -52.650299]
         },
     ],
         description: {
             title : "Welcome to French Guiana",
-            description : "Located between the Republic of Suriname and Brazil, French Guiana is a kingdom of forests, rivers and animals and seduces all nature lovers",
+            description : "Located between the Republic of Suriname and Brazil, French Guiana is a kingdom of forests, rivers and animals and seduces all nature lovers. It is also well knonw for its famous cayenne chilli pepper",
 
         },
     
@@ -125,12 +126,32 @@ const destinations = {
 
 	"Reunion Island" : {
         events: [{          
-            name : "Sustainable Cities Conference",
-			description : "Learn how Guadeloupe is starting the green revolution to prepare the world of tomorrow",
-            date : "Sep 22, 2021",
-			localTime: "02.00 pm",
-            city: "Basse Terre",
-            location :[15.99854, -61.72548]
+            name : "Sakifo Music Festival",
+			description : "All music of the world are coming together during this amazing festival. The festival has been organized to be plastic free this year.",
+			price : "20 EUR per person",
+            date : "Nov 20, 2021",
+			localTime: "06.00 pm",
+            city: "Saint Pierre",
+            location :[-21.341900, 55.477798]
+        },
+
+		{          
+            name : "Opening : la Maison de l'Ecologie",
+			description : "All music of the world are coming together during this amazing festival. The festival has been organized to be plastic free this year.",
+            date : "Oct 24, 2021",
+			localTime: "09.00 am",
+            city: "Saint Denis",
+            location :[-20.878901, 55.448101]
+        },
+
+		{          
+            name : "The volcano, journey par La Cite du Volcan",
+			description : "Reopening : La cite du volcan welcomes you with new activities, spectacles and a specific section on preserving the biodiversity",
+			price :" 8 EUR per person",
+            date : "Aug 25, 2021",
+			localTime: "10.00 am",
+            city: "Plaines des Cafres",
+            location :[-21.1667, 55.5833]
         },
     ],
         description: {
