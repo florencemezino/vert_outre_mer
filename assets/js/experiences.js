@@ -20,57 +20,16 @@ function init () {
 
 }
 
-
-
-
-
-
-
 /*
 
-var mymap = L.map('mapid').setView([51.505, -0.09], 13);
+function destinationsOnEachFeature(feature, layer) {
+    if (feature.properties && feature.properties.Destination) {
+        destinationsFeatures.push(feature);
 
-L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={pk.eyJ1IjoiZmxvcmVuY2Vtem4iLCJhIjoiY2tzaXpxdm0xMjNrMTJ1cDIzZDJwM2IwYiJ9.Zq9EUXd9jrZCk4ppkwdCZg}', {
-    attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
-    maxZoom: 18,
-    id: 'mapbox/streets-v11',
-    tileSize: 512,
-    zoomOffset: -1,
-    accessToken: 'pk.eyJ1IjoiZmxvcmVuY2Vtem4iLCJhIjoiY2tzaXpxdm0xMjNrMTJ1cDIzZDJwM2IwYiJ9.Zq9EUXd9jrZCk4ppkwdCZg'
-}).addTo(mymap);
-
-
-/*
-mapboxgl.accessToken = 'pk.eyJ1IjoiZmxvcmVuY2Vtem4iLCJhIjoiY2tzaXpxdm0xMjNrMTJ1cDIzZDJwM2IwYiJ9.Zq9EUXd9jrZCk4ppkwdCZg';
-const map = new mapboxgl.Map({
-	container: 'mapid',
-	style: 'mapbox://styles/mapbox/streets-v11',
-	center: [12.550343, 55.665957],
-	zoom: 8
-});
-// Create a default Marker and add it to the map.
-const marker1 = new mapboxgl.Marker()
-.setLngLat([12.554729, 55.70651])
-.addTo(map);
- 
-// Create a default Marker, colored black, rotated 45 degrees.
-const marker2 = new mapboxgl.Marker({ color: 'black', rotation: 45 })
-.setLngLat([12.65147, 55.608166])
-.addTo(map);
-
-
-
-
-
-
-
-/*
-function onMapClick(e) {
-    alert("You clicked the map at " + e.latlng);
+    } else {
+        console.log("Pick a destination");
+    }
 }
-
-mymap.on('click', onMapClick);
-
 
 
 const destinations = {
@@ -198,7 +157,6 @@ const destinations = {
     
     },
 
-
 	"Reunion Island" : {
         events: [{          
             name : "Sakifo Music Festival",
@@ -312,6 +270,7 @@ const destinations = {
         },
     
     },
+    
 
 }
 
