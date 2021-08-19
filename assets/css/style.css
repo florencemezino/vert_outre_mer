@@ -128,10 +128,46 @@ h2 {
 
 }
 
-.label-article {
-    color: darkgoldenrod;
+
+.article-france {
+    color: #146A84;
+    font-weight: bold;
 
 }
+
+.article-world {
+    color: darkgoldenrod;
+    font-weight: bold;
+
+}
+
+.reading-france {
+    color: #146A84;
+    font-weight: bold;
+}
+
+.reading-france:hover {
+    color: #146A84;
+    font-weight: bold;
+   
+}
+
+.reading-world {
+    color: darkgoldenrod;;
+    font-weight: bold;
+}
+
+.reading-world:hover {
+    color: darkgoldenrod;;
+    font-weight: bold;
+   
+}
+
+.article-img{
+    border-radius : 2%;
+    margin-bottom : 15px;
+}
+
 /* -------------------------------------------------------------------------------------------- Contact */
 
 .contact-title {
