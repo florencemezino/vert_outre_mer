@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const destinations = {
 	"Guadeloupe" : {
 		events: [{			
@@ -36,3 +37,5 @@ for (let i = 0; i < events.length; i++) {
 		.bindPopup(event.name)
 		.openPopup();
 }
+=======
+>>>>>>> 0d0b4e68b0a000f6dc635a7fe936790d749817f5

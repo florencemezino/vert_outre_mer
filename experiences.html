@@ -67,7 +67,7 @@
   </header>
     <!--./Fixed navbar --> 
 
- <!-- Events -->
+ <!-- Experiences -->
 
     <div class="container col-xxl-8 px-4 py-5">
       <div class="row align-items-center g-5 py-5">
@@ -79,30 +79,30 @@
               Select a destination
             </a>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-              <a class="dropdown-item" href="destinations/guadeloupe.html">Guadeloupe</a>
-              <a class="dropdown-item" href="destinations/saintmartin.html">Saint Martin</a>
-              <a class="dropdown-item" href="destinations/saintbarthelemy.html">Saint Barthelemy</a>
-              <a class="dropdown-item" href="destinations/martinique.html">Martinique</a>
-              <a class="dropdown-item" href="destinations/frenchguiana.html">French Guiana</a>
-              <a class="dropdown-item" href="destinations/reunionisland.html">Reunion Island</a>
-              <a class="dropdown-item" href="destinations/saintpierreetmiquelon.html">Saint Pierre et Miquelon</a>
-              <a class="dropdown-item" href="destinations/mayotte.html">Mayotte</a>
-              <a class="dropdown-item" href="destinations/newcaledonia.html">New Caledonia</a>
-              <a class="dropdown-item" href="destinations/frenchpolynesia">French Polynesia</a>
+              <a class="dropdown-item" href="destinations/guadeloupe.html" value="guadeloupe">Guadeloupe</a>
+              <a class="dropdown-item" href="destinations/saintmartin.html" value="saintmartin">Saint Martin</a>
+              <a class="dropdown-item" href="destinations/saintbarthelemy.html" value="saintbarthelemy">Saint Barthelemy</a>
+              <a class="dropdown-item" href="destinations/martinique.html" value="martinique">Martinique</a>
+              <a class="dropdown-item" href="destinations/frenchguiana.html" value="frenchguiana">French Guiana</a>
+              <a class="dropdown-item" href="destinations/reunionisland.html" value="reunionisland">Reunion Island</a>
+              <a class="dropdown-item" href="destinations/saintpierreetmiquelon.html" value="saintpierreetmiquelon">Saint Pierre et Miquelon</a>
+              <a class="dropdown-item" href="destinations/mayotte.html" value="mayotte">Mayotte</a>
+              <a class="dropdown-item" href="destinations/newcaledonia.html" value="newcaledonia">New Caledonia</a>
+              <a class="dropdown-item" href="destinations/frenchpolynesia" value="frenchpolynesia">French Polynesia</a>
             </div>
-            <button type="button" class="btn btn-secondary btn-lg px-4 me-md-2 btn-explore">Search</button>
+            <button type="button" class="btn btn-secondary btn-lg px-4 me-md-2 btn-explore" value="Select" onclick="optionClicked()">Search</button>
           </div>
         </div>
          <!-- Maps API-->
           <div class="col-lg-6">
-            <h3 class="section-heading uppercase">Here is the map</h3>
             <div id="map"></div>
+          </div>
           </div>
         </div>
       <!--./ Maps API-->
       </div>
+  
 
-<!--./ Event -->
 
   <!-- Fixed footer -->
   <footer class="footer mt-auto py-2 bg-light fixed-bottom">
@@ -114,11 +114,11 @@
         </div>
         <div class="col-lg-6 col-md-6 col-sm-4"> 
         <form class="newsletter">
-          <p><span class="badge badge-pill badge-newsletter">newsletter</span>Weekly digest of whats new and exciting from us.</p>
+          <p><span class="badge badge-pill badge-newsletter" style="margin-right: 1.5em;">newsletter</span><em>Weekly digest of whats new and exciting from us!</em></p>
           <div class="d-flex w-100 gap-2">
             <label for="newsletter1" class="visually-hidden">Email address</label>
             <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
-            <button class="btn-sm btn-explore" type="button">Subscribe</button>
+            <button class="btn-sm btn-success btn-explore" type="button">Subscribe</button>
           </div>
         </form>
         </div>
@@ -126,14 +126,16 @@
     </div> 
 </footer>
 <!--./ Fixed footer -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
 
     <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDc9ZgZIJLLq1ukCmKx9tCFcC4CM85ujVY&callback=initMap"></script>
-    <script src="assets/js/experiences.js"></script>
+    <script src="assets/js/maps.js"></script>
 
   </body>
 </html>
