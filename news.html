@@ -54,9 +54,9 @@
     <!-- Main Article -->
 
     <main class="container">
-      <div class="p-4 p-md-5 mb-4 text-white rounded main-article">
-        <div class="col-md-6 px-0">
-          <h1 class="display-4 news-report"> Report : Reunion Island, the green revolution</h1>
+      <div class="p-4 p-md-5 mb-4 text-white main-article">
+        <div class="col-md-6 px-0 news-report">
+          <h1 class="display-4 "> Report : Reunion Island, the green revolution</h1>
           <p class="lead my-3">Everyone has, each at their own level, a true responsibility. Climate change, ecological footprint, the need to protect species and natural habitats, blue economy, green revolution, renewable energies ...
             Throughout the world, initiatives are being taken at a national, subnational and local levels.
             Small island economies following the example of La Réunion are, in this part of the world, one of the first sentries of climate change.</p>
@@ -170,10 +170,11 @@
       <!--./News --> 
 
       <!-- Newsletter pop up-->
-      <div class= "container center">
+      <div class= "container text-center">
         <button type="button" class="btn btn-explore" data-toggle="modal" data-target="#popup">
         Subscribe to our Newsletter
         </button>
+
 
       <div id="popup" class="modal">
           <div class="modal-dialog modal-dialog-centered">
@@ -182,22 +183,27 @@
               <p><span class="badge badge-pill badge-newsletter" style="margin-right: 1.5em;">newsletter</span><strong>Weekly digest of what's new from us!</strong></p>
             </div>
             <div class="modal-body">
-              <form class="newsletter">
-                <div class="d-flex w-100 gap-2">
-                  <label for="name1" class="visually-hidden">Name</label>
-                  <input id="name1" type="text" class="form-control" placeholder="Name">
-                  <label for="newsletter1" class="visually-hidden">Email address</label>
-                  <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+
+              <form class="form-details newsletter">
+                <div class="d-flex w-100 gap-4">
+                  <div class="form-group">
+                    <input type="text" class="form-control" id="exampleInputName" placeholder="name" required>
+                </div>
+                  <div class="form-group">
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="your email" required>
+                </div>
                 </div>
             </form>
+        
             </div>
             <div class="modal-footer">
-              <button class="btn-sm btn-explore" type="button">Subscribe</button>
+              <button class="btn-sm btn-explore" type="button" data-dismiss="modal">Subscribe</button>
+              <button type="button" class="btn-sm btn-close-popup" data-dismiss="modal"><i class="glyphicon glyphicon-remove"></i>Ignore</button>
             </div>
             </div>
           </div>
       </div>
- 
+
 
     <!-- Navigation / Pagination -->
 

@@ -140,6 +140,8 @@ h2 {
 
 .news-report {
     color : #fafafa;
+    margin-top : 20px;
+    margin-right : 20px;
 }
 
 .main-article {
@@ -224,6 +226,15 @@ h2 {
     letter-spacing: 2px;
 }
 
+.btn-close-popup {
+    color : #545B62;
+    background-color: #fafafa;
+}
+
+.btn-close-popup:hover {
+    background-color : #545B62;
+    color: #fafafa;
+}
 
 /* -------------------------------------------------------------------------------------------- Contact */
 
