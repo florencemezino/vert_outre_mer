@@ -300,13 +300,6 @@ function init () {
 }
 
 
-// Make destination name remain in the dropdown field
-// Make event content appears
-// Make destination description appeared at the same time as the events on the map
-// Clear events on map when changing destination
-// Link the function onload with search button
-
-
 
 
 
