@@ -130,7 +130,7 @@ h2 {
 #mapid { 
     height: 600px; 
     width: 850px; 
-    border : 10px, solid, #146A84;
+    border : 30px, solid, #146A84;
     z-index : 5;
 
 }
