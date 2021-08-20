@@ -79,9 +79,9 @@ html, body {
 
 h1 {
     
-    color : #545B62;
+    color : darkgoldenrod;
     margin: 0;
-    -webkit-text-stroke: 1px #fafafa;
+    -webkit-text-stroke: 0.5px #fafafa;
     font-size: 200px;
     margin-top : 100px;
 }
@@ -89,9 +89,11 @@ h1 {
 
 h2 {
     color: darkgoldenrod;
-    font-size: 200px;
-    font-weight: 100;
+    -webkit-text-stroke: 1px #fafafa;
+    font-size: 400px;
+    font-weight: 600;
     margin-top: 50px;
+    padding-bottom : 100px;
 
 }
 
