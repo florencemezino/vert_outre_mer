@@ -18,8 +18,7 @@ $(document).ready(function() {
 
 $('#button').submit(function(e) {
     e.preventDefault();
-    // Coding
-    $('#popup').modal('toggle'); //or  $('#IDModal').modal('hide');
+    $('#popup').modal('toggle'); 
     return false;
 });
 

@@ -17,7 +17,7 @@ emailjs.send("gmail","reception_request",{
         });
     }
 
-    // contact form modal submit confirmation
+// contactform modal alert after submitting the contact form
 
     $('#form').submit(function(e) {
         $('#messages').removeClass('hide').addClass('alert alert-success alert-dismissible').slideDown().show();

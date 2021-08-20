@@ -1,3 +1,5 @@
+// rendering leaflet map
+
 function init () {
     const france = {
         lat : 46.7111,
@@ -19,6 +21,10 @@ function init () {
     mainLayer.addTo(map);
 
 }
+
+
+// Search experiences on map by destination using dropdown
+
 
 /*
 
@@ -124,7 +130,7 @@ const destinations = {
         description: {
             title : "Welcome to Martinique",
             description : "Martinique boasts a whole world of natural wonders. The beautiful island offers a seductive mix of magnificent beaches, dramatic mountains, tropical gardens, and fascinating history.",
-
+            toLink : "https://www.saintbarth-tourisme.com/",
         },
     
     },
@@ -153,7 +159,7 @@ const destinations = {
         description: {
             title : "Welcome to French Guiana",
             description : "Located between the Republic of Suriname and Brazil, French Guiana is a kingdom of forests, rivers and animals and seduces all nature lovers. It is also well knonw for its famous cayenne chilli pepper",
-
+            toLink : "https://www.guyane-amazonie.fr/",
         },
     
     },
@@ -191,7 +197,7 @@ const destinations = {
         description: {
             title : "Welcome to Reunion Island",
             description : "Located in the Archipelago of Mascareignes, Reunion Island offers an infinite number of amazing sites and contrasting landscapes. The island is known for the spectacular Piton de la Fournaise, an active basaltic volcano.",
-
+            toLink : "https://www.reunion.fr/"
         },
     
     },
@@ -210,7 +216,7 @@ const destinations = {
         description: {
             title : "Welcome to Saint Pierre et Miquelon",
             description : "Between the friendly bonjours and the delicate pastries come and discover these two beautiful islands, a real piece of France in North America",
-
+            toLink : "http://www.spm-tourisme.fr/",
         },
     
     },
@@ -229,7 +235,7 @@ const destinations = {
         description: {
             title : "Welcome to Mayotte",
             description : "The island of Mayotte has an abundance of endemic fauna and flora. It is an authentic island to visit in the Indian Ocean.",
-
+            toLink : "https://www.mayotte-tourisme.com/",
         },
     
     },
@@ -248,6 +254,7 @@ const destinations = {
         description: {
             title : "Welcome to New Caledonia",
             description : "Located in the world’s largest lagoon and possessing the second-largest barrier reef, New Caledonia has so much to offer.",
+            toLink : "https://www.nouvellecaledonie.travel/fr/offices-tourisme",
 
         },
     
@@ -267,6 +274,7 @@ const destinations = {
         description: {
             title : "Welcome to French Polynesia",
             description : "Exotic wildlife, impeccable cuisine, welcoming locals, French Polynesia is your new tropical vacation destination.",
+            toLink : "https://tahititourisme.fr/fr-fr/",
 
         },
     
