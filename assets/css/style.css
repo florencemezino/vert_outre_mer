@@ -43,6 +43,21 @@ html, body {
      color: darkgoldenrod !important;
 }
 
+
+
+/* -------------------------------------------------------------------------------------------- Footer*/
+
+
+.copyright-style {
+    color : #fafafa;
+}
+
+.social-links {
+    float : right;
+    margin-right : 50px;
+
+}
+
 .fab {
     color: #fafafa;
     margin-right: 0.5em;
@@ -52,25 +67,6 @@ html, body {
 
 .fab:hover {
     color: darkgoldenrod;
-}
-
-/* -------------------------------------------------------------------------------------------- Footer*/
-
-/* Newsletter */
-
-.newsletter-title {
-    color : #146A84;
-    font-size: 20px;
-}
-
-.badge-newsletter {
-    color : #fafafa;
-    background-color : #146A84;
-    letter-spacing: 2px;
-}
-
-.copyright-style {
-    color : #146A84;
 }
 
 /* -------------------------------------------------------------------------------------------- Destinations */
@@ -88,7 +84,7 @@ h1 {
 
 
 h2 {
-    color: darkgoldenrod;
+    color: #fafafa;
     -webkit-text-stroke: 1px #fafafa;
     font-size: 400px;
     font-weight: 600;
@@ -197,7 +193,6 @@ h2 {
 .article-container {
     width: 300px;
     height: 200px;
-    border: 1px solid #000000;
     overflow: hidden;
     position: relative;
 }
@@ -227,6 +222,20 @@ h2 {
 }
 
 */
+
+/* Newsletter */
+
+.newsletter-title {
+    color : #146A84;
+    font-size: 20px;
+}
+
+.badge-newsletter {
+    color : #fafafa;
+    background-color : #146A84;
+    letter-spacing: 2px;
+}
+
 
 /* -------------------------------------------------------------------------------------------- Contact */
 
