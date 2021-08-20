@@ -57,6 +57,7 @@ const destinations = {
         description: {
 			title : "Welcome to Guadeloupe",
             description : "Guadeloupe is an archipelago and overseas department and region of France in the Caribbean. Whether walking through lively village streets, touring country lanes or gliding between island by ferry, Guadeloupe serves up a rich menu of unique cultural experiences.",
+            toLink : "https://www.lesilesdeguadeloupe.com/tourisme/fr-fr/",
         },
     
     },
@@ -75,7 +76,7 @@ const destinations = {
         description: {
 			title : "Welcome to Saint Martin",
             description : "The culture of Saint Martin is a blend of its African, French, British, and Dutch heritage.Saint Martin is known to be the capital of duty free and gastronomy in the Caribbean. The warm hospitality of its people, its diversity and its varied cultural activities all allowed it to be nicknamed the 'Friendly Island'",
-
+            toLink : "https://www.st-martin.org/",    
         },
     
     },

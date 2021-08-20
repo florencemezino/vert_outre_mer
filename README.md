@@ -1,4 +1,4 @@
-# Next holidays destination: France Overseas - Vert l'Outre Mer
+# Next holiday destination: France Overseas - Vert Outre Mer
 
 [View the live project here](link)
 
