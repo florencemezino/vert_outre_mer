@@ -1,42 +1,4 @@
-// rendering leaflet map
-
-function init () {
-    const france = {
-        lat : 46.7111,
-        lng: 1.7191,
-    }
-    const zoomLevel = 3;
-
-    const map = L.map('mapid').setView([france.lat, france.lng],zoomLevel);
-
-    const mainLayer = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
-        attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
-        maxZoom: 18,
-        id: 'mapbox/streets-v11',
-        tileSize: 512,
-        zoomOffset: -1,
-        accessToken: 'pk.eyJ1IjoiZmxvcmVuY2Vtem4iLCJhIjoiY2tzaXhjeXB2MjhiNDJ1cXRqbWhob3c1NiJ9.D_23R3oBTJcVFRjDiASpVA'
-    });
-
-    mainLayer.addTo(map);
-
-}
-
-
-// Search experiences on map by destination using dropdown
-
-
-/*
-
-function destinationsOnEachFeature(feature, layer) {
-    if (feature.properties && feature.properties.Destination) {
-        destinationsFeatures.push(feature);
-
-    } else {
-        console.log("Pick a destination");
-    }
-}
-
+// events content
 
 const destinations = {
     "Guadeloupe" : {
@@ -268,7 +230,7 @@ const destinations = {
             date : "Sep 22, 2021",
 			localTime: "02.00 pm",
             city: "Basse Terre",
-            location :[ -17.535000, -149.569600]
+            location :[15.9966, 61.7317]
         },
     ],
         description: {
@@ -278,28 +240,75 @@ const destinations = {
 
         },
     
-    },
+    },   
+}
+
+// Initializing the dropdown list
+
+$(document).ready(function () {
+    $("#dropdown-list a").on("click", function (event) {
+        event.preventDefault();
+        var destinationName = $(this).text();
+        loadDestination(destinationName);
+
+    })
+
+})
+
+// Calling the events markers
+
+const france = {
+    lat : 46.7111,
+    lng: 1.7191,
+}
+const zoomLevel = 3;
+
+const map = L.map('mapid').setView([france.lat, france.lng],zoomLevel);
+
+function loadDestination(destinationName){
+    const destination = destinations[destinationName];
+    console.log(destination.events);
+
+    var events = destination.events;
+
+    for (let i = 0; i < events.length; i++) {
+        const event = events[i];
+        const location = event.location;
+        L.marker(location).addTo(map)
+            .bindPopup(`<span><strong>${event.name}</strong></span>`)
+            .openPopup();
+    } 
+}
+
+
+
+// rendering leaflet map
+
+function init () {
     
+    const mainLayer = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
+        attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+        maxZoom: 18,
+        id: 'mapbox/streets-v11',
+        tileSize: 512,
+        zoomOffset: -1,
+        accessToken: 'pk.eyJ1IjoiZmxvcmVuY2Vtem4iLCJhIjoiY2tzaXhjeXB2MjhiNDJ1cXRqbWhob3c1NiJ9.D_23R3oBTJcVFRjDiASpVA'
+    });
+
+    mainLayer.addTo(map);
 
 }
 
-const destinations = getDestinations();
 
-const destinationsSelect= document.getElementById('destinations');
-const selectedDestination = destinationSelect.options[destinationsSelect.select.Index].text
+// Make destination name remain in the dropdown field
+// Make event content appears
+// Make destination description appeared at the same time as the events on the map
+// Clear events on map when changing destination
+// Link the function onload with search button
 
 
-const selectedDestinationCoordinates = selectDestination.coordinates;
-const events = destinations[selectedDestinations].events;
 
-var mymap = L.map('mapid').setView([selectDestinationCoordinates], 13)
 
-for (let i = 0; i < events.length; i++) {
-    const event = events[i];
-    const location = event.location;
-    L.marker(location).addTo(map)
-        .bindPopup(event.name)
-        .openPopup();
-}
 
-*/
+
+
