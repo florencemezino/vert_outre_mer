@@ -300,6 +300,8 @@ All content for illustrations (pictures, icons, photos) can  be found within the
 
 * Newsletter pop up modal [View](https://bootstrap-top-design.com/creer-un-popup-bootstrap/)
 
+* Code pen background image zoom [View] (https://codepen.io/andreaswik/pen/BgqQMG)
+
 ### Content 
 
 * All content was written by the developer.
