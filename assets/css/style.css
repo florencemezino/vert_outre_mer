@@ -77,7 +77,7 @@ h1 {
     
     color : darkgoldenrod;
     margin: 0;
-    -webkit-text-stroke: 0.5px #fafafa;
+    -webkit-text-stroke: 1px #fafafa;
     font-size: 200px;
     margin-top : 100px;
 }
