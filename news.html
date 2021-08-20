@@ -67,8 +67,45 @@
         </div>
       </div>
      
-    
-  <!--./ Main Article -->    
+  <!--./ Main Article --> 
+  
+  
+      <!-- Newsletter pop up-->
+      <div class= "container text-center">
+        <button type="button" class="btn btn-explore btn-newsletter" data-toggle="modal" data-target="#popup">
+        Subscribe to our Newsletter
+        </button>
+
+
+      <div id="popup" class="modal">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+            <div class="modal-header">
+              <p><span class="badge badge-pill badge-newsletter" style="margin-right: 1.5em;">newsletter</span><strong>Weekly digest of what's new from us!</strong></p>
+            </div>
+            <div class="modal-body">
+
+              <form class="form-details newsletter">
+                <div class="d-flex w-100 gap-4">
+                  <div class="form-group">
+                    <input type="text" class="form-control" id="exampleInputName" placeholder="name" required>
+                </div>
+                  <div class="form-group">
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="your email" required>
+                </div>
+                </div>
+            </form>
+        
+            </div>
+            <div class="modal-footer">
+              <button class="btn-sm btn-explore" type="button" data-dismiss="modal">Subscribe</button>
+              <button type="button" class="btn-sm btn-close-popup" data-dismiss="modal"><i class="glyphicon glyphicon-remove"></i>Ignore</button>
+            </div>
+            </div>
+          </div>
+      </div>
+      </div>
+      <!-- ./Newsletter pop up-->
 
   <!-- Other Articles -->
 
@@ -168,51 +205,6 @@
       <!--./ Other Articles -->    
 
       <!--./News --> 
-
-      <!-- Newsletter pop up-->
-      <div class= "container text-center">
-        <button type="button" class="btn btn-explore" data-toggle="modal" data-target="#popup">
-        Subscribe to our Newsletter
-        </button>
-
-
-      <div id="popup" class="modal">
-          <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-            <div class="modal-header">
-              <p><span class="badge badge-pill badge-newsletter" style="margin-right: 1.5em;">newsletter</span><strong>Weekly digest of what's new from us!</strong></p>
-            </div>
-            <div class="modal-body">
-
-              <form class="form-details newsletter">
-                <div class="d-flex w-100 gap-4">
-                  <div class="form-group">
-                    <input type="text" class="form-control" id="exampleInputName" placeholder="name" required>
-                </div>
-                  <div class="form-group">
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="your email" required>
-                </div>
-                </div>
-            </form>
-        
-            </div>
-            <div class="modal-footer">
-              <button class="btn-sm btn-explore" type="button" data-dismiss="modal">Subscribe</button>
-              <button type="button" class="btn-sm btn-close-popup" data-dismiss="modal"><i class="glyphicon glyphicon-remove"></i>Ignore</button>
-            </div>
-            </div>
-          </div>
-      </div>
-
-
-    <!-- Navigation / Pagination -->
-
-    <nav class="blog-pagination" aria-label="Pagination">
-      <a class="btn btn-outline-primary" href="#">Older</a>
-      <a class="btn btn-outline-secondary disabled" href="#" tabindex="-1" aria-disabled="true">Newer</a>
-    </nav>
-
-    <!-- Navigation / Pagination -->
  
 
  <!-- Fixed footer -->
