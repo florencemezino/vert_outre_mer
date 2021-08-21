@@ -22,9 +22,9 @@ const destinations = {
             location :[16.20685, -61.49329]
         },
     ],
-        description: {
+        descriptions: {
 			title : "Welcome to Guadeloupe",
-            description : "Guadeloupe is an archipelago and overseas department and region of France in the Caribbean. Whether walking through lively village streets, touring country lanes or gliding between island by ferry, Guadeloupe serves up a rich menu of unique cultural experiences.",
+            summary : "Guadeloupe is an archipelago and overseas department and region of France in the Caribbean. Whether walking through lively village streets, touring country lanes or gliding between island by ferry, Guadeloupe serves up a rich menu of unique cultural experiences.",
             toLink : "https://www.lesilesdeguadeloupe.com/tourisme/fr-fr/",
         },
     
@@ -41,9 +41,9 @@ const destinations = {
             location :[18.073099, -63.082199]
         },
     ],
-        description: {
+        descriptions: {
 			title : "Welcome to Saint Martin",
-            description : "The culture of Saint Martin is a blend of its African, French, British, and Dutch heritage.Saint Martin is known to be the capital of duty free and gastronomy in the Caribbean. The warm hospitality of its people, its diversity and its varied cultural activities all allowed it to be nicknamed the 'Friendly Island'",
+            summary : "The culture of Saint Martin is a blend of its African, French, British, and Dutch heritage.Saint Martin is known to be the capital of duty free and gastronomy in the Caribbean. The warm hospitality of its people, its diversity and its varied cultural activities all allowed it to be nicknamed the 'Friendly Island'",
             toLink : "https://www.st-martin.org/",    
         },
     
@@ -60,9 +60,10 @@ const destinations = {
             location :[17.900000, -62.8333]
         },
     ],
-        description: {
+        descriptions: {
             title : "Welcome to Saint Barthelemy",
-            description : "Saint Barthelemy, also called saint Barth is a small tourism-oriented island in the Caribbean with remarkable natural scenery.",
+            summary: "Saint Barthelemy, also called saint Barth is a small tourism-oriented island in the Caribbean with remarkable natural scenery.",
+            toLink : "https://www.saintbarth-tourisme.com/",
 
         },
     
@@ -89,9 +90,9 @@ const destinations = {
             location :[14.614367, -61.011064]
         },
     ],
-        description: {
+        descriptions: {
             title : "Welcome to Martinique",
-            description : "Martinique boasts a whole world of natural wonders. The beautiful island offers a seductive mix of magnificent beaches, dramatic mountains, tropical gardens, and fascinating history.",
+            summary : "Martinique boasts a whole world of natural wonders. The beautiful island offers a seductive mix of magnificent beaches, dramatic mountains, tropical gardens, and fascinating history.",
             toLink : "https://www.saintbarth-tourisme.com/",
         },
     
@@ -118,9 +119,9 @@ const destinations = {
             location :[5.159700, -52.650299]
         },
     ],
-        description: {
+        descriptions: {
             title : "Welcome to French Guiana",
-            description : "Located between the Republic of Suriname and Brazil, French Guiana is a kingdom of forests, rivers and animals and seduces all nature lovers. It is also well knonw for its famous cayenne chilli pepper",
+            summary : "Located between the Republic of Suriname and Brazil, French Guiana is a kingdom of forests, rivers and animals and seduces all nature lovers. It is also well knonw for its famous cayenne chilli pepper",
             toLink : "https://www.guyane-amazonie.fr/",
         },
     
@@ -156,9 +157,9 @@ const destinations = {
             location :[-21.1667, 55.5833]
         },
     ],
-        description: {
+        descriptions: {
             title : "Welcome to Reunion Island",
-            description : "Located in the Archipelago of Mascareignes, Reunion Island offers an infinite number of amazing sites and contrasting landscapes. The island is known for the spectacular Piton de la Fournaise, an active basaltic volcano.",
+            summary : "Located in the Archipelago of Mascareignes, Reunion Island offers an infinite number of amazing sites and contrasting landscapes. The island is known for the spectacular Piton de la Fournaise, an active basaltic volcano.",
             toLink : "https://www.reunion.fr/"
         },
     
@@ -175,9 +176,9 @@ const destinations = {
             location :[47.0975, -56.3814]
         },
     ],
-        description: {
+        descriptions: {
             title : "Welcome to Saint Pierre et Miquelon",
-            description : "Between the friendly bonjours and the delicate pastries come and discover these two beautiful islands, a real piece of France in North America",
+            summary : "Between the friendly bonjours and the delicate pastries come and discover these two beautiful islands, a real piece of France in North America",
             toLink : "http://www.spm-tourisme.fr/",
         },
     
@@ -194,9 +195,9 @@ const destinations = {
             location :[-12.7804169, 45.2279184]
         },
     ],
-        description: {
+        descriptions: {
             title : "Welcome to Mayotte",
-            description : "The island of Mayotte has an abundance of endemic fauna and flora. It is an authentic island to visit in the Indian Ocean.",
+            summary : "The island of Mayotte has an abundance of endemic fauna and flora. It is an authentic island to visit in the Indian Ocean.",
             toLink : "https://www.mayotte-tourisme.com/",
         },
     
@@ -213,9 +214,9 @@ const destinations = {
             location :[-22.275801, 166.457993]
         },
     ],
-        description: {
+        descriptions: {
             title : "Welcome to New Caledonia",
-            description : "Located in the world’s largest lagoon and possessing the second-largest barrier reef, New Caledonia has so much to offer.",
+            summary : "Located in the world’s largest lagoon and possessing the second-largest barrier reef, New Caledonia has so much to offer.",
             toLink : "https://www.nouvellecaledonie.travel/fr/offices-tourisme",
 
         },
@@ -233,9 +234,9 @@ const destinations = {
             location :[-17.53733, -149.5665]
         },
     ],
-        description: {
+        descriptions: {
             title : "Welcome to French Polynesia",
-            description : "Exotic wildlife, impeccable cuisine, welcoming locals, French Polynesia is your new tropical vacation destination.",
+            summary : "Exotic wildlife, impeccable cuisine, welcoming locals, French Polynesia is your new tropical vacation destination.",
             toLink : "https://tahititourisme.fr/fr-fr/",
 
         },
@@ -254,9 +255,9 @@ const destinations = {
             location :[13.282509, -176.176447]
         },
     ],
-        description: {
+        descriptions: {
             title : "Welcome to Wallis et Futuna",
-            description : "Be the first to set foot in these volcanic and paradisiacal lands.",
+            summary : "Be the first to set foot in these volcanic and paradisiacal lands.",
             toLink : "https://www.wallis-et-futuna.wf/voyager",
 
         },
@@ -274,9 +275,9 @@ const destinations = {
             location :[-43.762953, 63.884533]
         },
     ],
-        description: {
+        descriptions: {
             title : "Welcome to Terres Australes",
-            description : "'Stopovers at the end of the world', a beautiful journey through southern and Antarctic lands",
+            summary : "'Stopovers at the end of the world', a beautiful journey through southern and Antarctic lands",
             toLink : "https://taaf.fr/acceder-aux-territoires/tourisme-a-bord-du-marion-dufresne/participer-a-une-rotation/",
 
         },
@@ -310,9 +311,7 @@ $("#dropdown-list a").click(function(){
 
 
 
-
-
-// Calling the events markers
+// Loading events markers
 
 const france = {
     lat : 46.7111,
@@ -339,7 +338,26 @@ function loadDestination(destinationName){
             <span><small><i class="fas fa-money-bill"></i> ${event.price}</small></span>`)
             .openPopup();
     } 
+
 }
+
+// Loading cluster markers
+// Clear markers before adding new ones
+
+
+
+// Loading destination description
+
+function loadDestination(destinationName){
+    const destination = destinations[destinationName];
+    console.log(destination.descriptions);
+}
+
+
+
+
+
+
 
 
 

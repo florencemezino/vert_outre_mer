@@ -105,6 +105,14 @@ h2 {
     border : none;
 }
 
+.btn-explore button.active {
+    color : #fafafa;
+    background-color : #146A84 !important;
+    border : none;
+
+}
+
+
  /* hero image */
 
  .hero-container-fluid {
