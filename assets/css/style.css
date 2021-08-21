@@ -174,6 +174,7 @@ h2 {
 
 .main-article {
     background-color : #146A84;
+    border-radius : 0.5%;
 
 }
 
@@ -274,6 +275,7 @@ h2 {
 }
 
 .contact-text {
+    color : #146A84;
     margin-top: 20px;
     margin-bottom: 10px;
     position: relative;
@@ -292,13 +294,20 @@ h2 {
     border : none;
 }
 
+/*
 .contact-img{
     width: 100%;
     height : auto;
     margin-right : 20px;
     margin-left : 20px;
 }
+*/
 
+.fa-quote-left{
+    color : #146A84;
 
+}
 
-/* -------------------------------------------------------------------------------------------- media queries*/
+.fa-quote-right {
+    color : #146A84;
+}
