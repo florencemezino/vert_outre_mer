@@ -14,7 +14,7 @@ const destinations = {
 
 		{          
             name : "Carribean Festival",
-			description : "Dicover the music of the Carribeans. Plastic fre concert. ",
+			description : "Dicover the music of the Carribeans. Plastic free concert. ",
 			price : "15 eur per person",
             date : "Oct 15, 2021",
 			localTime: "06.00 pm",
@@ -178,7 +178,7 @@ const destinations = {
     ],
         descriptions: {
             title : "Welcome to Saint Pierre et Miquelon",
-            summary : "Between the friendly bonjours and the delicate pastries come and discover these two beautiful islands, a real piece of France in North America",
+            summary : "Between the friendly bonjours and the delicate pastries come and discover the two beautiful islands of Saint Pierre et Miquelon, a real piece of France in North America",
             toLink : "http://www.spm-tourisme.fr/",
         },
     
@@ -309,7 +309,7 @@ $("#dropdown-list a").click(function(){
 
 
 
-// Loading events markers
+// Loading destination events markers
 
 const france = {
     lat : 46.7111,
@@ -330,8 +330,8 @@ function loadDestination(destinationName){
         const location = event.location;
         
         L.marker(location).addTo(map)
-            .bindPopup(`<span><strong>${event.name}</strong></span><br>
-            <span><small><em>${event.description}</em></small></span><br>
+            .bindPopup(`<span style="color:#146A84;"><strong>${event.name}</strong></span><br>
+            <span style="color: #146A84;"><small><em>${event.description}</em></small></span><br>
             <span><small><i class="far fa-clock"></i> ${event.date} - ${event.localTime}</small></span><br>
             <span><small><i class="fas fa-map-pin"></i> ${event.city} </small></span><br>
             <span><small><i class="fas fa-money-bill"></i> ${event.price}</small></span>`)
@@ -340,7 +340,8 @@ function loadDestination(destinationName){
                })
             .openPopup();
 
-        document.querySelector('#destination-info').innerHTML = `${destination.descriptions.summary}`
+        document.querySelector('#destination-info').innerHTML = `<span style="color:#146A84; font-weight: 300; font-size: 25px;">${destination.descriptions.summary}</span><br> 
+        <span style="color:#146A84;">More information : ${destination.descriptions.toLink}</span>`
     } 
 
 }
@@ -349,9 +350,6 @@ function loadDestination(destinationName){
 // Loading cluster markers (using L.markerClusterGroup())
 
 // Clear markers before adding new ones (using markers.clearLayers();
-
-// Loading destination description (using if /else)
-
 
 
 // rendering leaflet map
@@ -370,3 +368,15 @@ function init () {
     mainLayer.addTo(map);
 
 }
+
+$.getJSON('world.geo.json', function (geojson) { // load file
+    L.geoJson(geojson, { // initialize layer with data
+        style: function (feature) { // Style option
+            return {
+                'weight': 1,
+                'color': '#146A84',
+                'fillColor': 'darkgoldenrod'
+            }
+        }
+    }).addTo(map); // Add layer to map
+});
