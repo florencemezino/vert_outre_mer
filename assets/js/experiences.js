@@ -286,7 +286,6 @@ const destinations = {
 
 }
 
-// Keep selection in dropdown 
 
 
 
@@ -301,6 +300,14 @@ $(document).ready(function () {
     })
 
 })
+
+// Keep selection in dropdown 
+
+$("#dropdown-list a").click(function(){
+    $(this).parents(".dropdown").find('.btn').html($(this).text() + ' <span class="caret"></span>');
+    $(this).parents(".dropdown").find('.btn').val($(this).data('value'));
+  });
+
 
 
 

@@ -296,7 +296,7 @@ All content for illustrations (pictures, icons, photos) can  be found within the
 * Leaflet mapbox Youtube tutorial / set the map [View](https://youtu.be/-E69eEvP4PI)
 * Eventbrite api : [View](https://www.eventbrite.com/platform/api#/introduction/expansions/requesting-expansions)
 * Opendata soft / documentation about french destinations i.e :coordinates  https://documentation-resources.opendatasoft.com/explore/dataset/regions-et-collectivites-doutre-mer-france/api/?disjunctive.reg_name
-
+* dropdown selection :[View](https://stackoverflow.com/questions/13437446/how-to-display-selected-item-in-bootstrap-button-dropdown-title)
 
 3. News page
 * Newsletter pop up modal [View](https://bootstrap-top-design.com/creer-un-popup-bootstrap/)
