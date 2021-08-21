@@ -14,8 +14,8 @@ const destinations = {
 
 		{          
             name : "Carribean Festival",
-			description : "Dicover the music of the Carribeans. This is a plastic fre concert. Come have fun with us! ",
-			price : "15 EUR per person",
+			description : "Dicover the music of the Carribeans. Plastic fre concert. ",
+			price : "15 eur per person",
             date : "Oct 15, 2021",
 			localTime: "06.00 pm",
             city: "Le Gosier",
@@ -36,7 +36,7 @@ const destinations = {
 			description : "Join us this Sunday to clean up Marigot's beach. ",
 			price : "free",
             date : "Aug 22, 2021",
-			localTime: "04.00 pm",
+			localTime: "09.00 am",
             city: "Marigot",
             location :[18.073099, -63.082199]
         },
@@ -52,8 +52,8 @@ const destinations = {
 	"Saint Barthelemy" : {
         events: [{          
             name : "Saint Barth's Marathon",
-			description : "This year, Saint Barth's Marathon is running for the Climate. Come and run for the good cause.",
-			price : "10 EUR per person",
+			description : "This year, Saint Barth's Marathon is running for the Climate. Join us!",
+			price : "10 eur per person",
             date : "Sep 5, 2021",
 			localTime: "10.00 am",
             city: "Gustavia",
@@ -72,7 +72,7 @@ const destinations = {
         events: [{          
             name : "Fort de France eBike tour",
 			description : "Visit the beautiful city of Fort de France in a sustainable way.  ",
-			price : "8 EUR per person",
+			price : "8 eur per person",
             date : "Aug 31, 2021",
 			localTime: "10.00 am",
             city: "Fort de France",
@@ -80,8 +80,8 @@ const destinations = {
         },
 
 		{          
-            name : "Culinary trip du Petit Manoir",
-			description : "Visit the beautiful city of Fort de France in a sustainable way.  ",
+            name : " Petit Manoir Culinary trip",
+			description : "Taste and feel the exciting flavors of Martinique.",
 			price : "20 EUR per person",
             date : "Aug 31, 2021",
 			localTime: "10.00 am",
@@ -99,19 +99,19 @@ const destinations = {
 
 	"French Guiana" : {
         events: [{          
-            name : "Cayenne Chili Pepper Festival",
-			description : "Challenege your taste buds and come experience the famous local chili : Cayenne Chili Pepper in every shape",
+            name : "Cayenne Chili Festival",
+			description : "Challenge your taste buds with the famous Cayenne Chili ",
 			price : "free",
             date : "Oct 10, 2021",
 			localTime: "10.00 am",
             city: "Cayenne",
-            location :[4.937200, 52.326000]
+            location :[4.9371143, -52.3258307]
         },
 
 		{          
-            name : "Guided visit of monkey mountain",
+            name : "Guided visit of Monkey mountain",
 			description : "Meet different species of monkeys during this memorable half day trip",
-			price: "15 EUR",
+			price: "15 eur per person",
             date : "Sep 2, 2021",
 			localTime: "02.00 pm",
             city: "Kourou",
@@ -129,8 +129,8 @@ const destinations = {
 	"Reunion Island" : {
         events: [{          
             name : "Sakifo Music Festival",
-			description : "All music of the world are coming together during this amazing festival. The festival has been organized to be plastic free this year.",
-			price : "20 EUR per person",
+			description : "Dance to the music of the world. First year, plastice free.",
+			price : "20 eur per person",
             date : "Nov 20, 2021",
 			localTime: "06.00 pm",
             city: "Saint Pierre",
@@ -138,8 +138,8 @@ const destinations = {
         },
 
 		{          
-            name : "Opening : la Maison de l'Ecologie",
-			description : "All music of the world are coming together during this amazing festival. The festival has been organized to be plastic free this year.",
+            name : "La Maison de l'Ecologie",
+			description : "Come and learn about the biodiversity protection in Reunion Island .",
             date : "Oct 24, 2021",
 			localTime: "09.00 am",
             city: "Saint Denis",
@@ -147,9 +147,9 @@ const destinations = {
         },
 
 		{          
-            name : "The volcano, journey par La Cite du Volcan",
-			description : "Reopening : La cite du volcan welcomes you with new activities, spectacles and a specific section on preserving the biodiversity",
-			price :" 8 EUR per person",
+            name : "La Cite du Volcan",
+			description : "The museum welcomes you with new activities, spectacles and a specific section on preserving the volcano biodiversity",
+			price :" 8 eur per person",
             date : "Aug 25, 2021",
 			localTime: "10.00 am",
             city: "Plaines des Cafres",
@@ -166,12 +166,12 @@ const destinations = {
 
 	"Saint Pierre et Miquelon" : {
         events: [{          
-            name : "Opening : La Ferme Urbaine de Paulette ",
-			description : "Come and visit this atypic sustainable farm in the middle of the city. Activity feeding the animals possible",
-			price: "2 EUR per adult, free for children until 12 years old",
+            name : "La Ferme Urbaine de Paulette ",
+			description : "Visit this atypic sustainable farm in the middle of the city. Activity feeding the animals possible",
+			price: "free",
             date : "Sep 2, 2021",
 			localTime: "02.00 pm",
-            city: "Saint-Pierre",
+            city: "Miquelon Langlade",
             location :[47.0975, -56.3814]
         },
     ],
@@ -191,7 +191,7 @@ const destinations = {
             date : "Aug 30, 2021",
 			localTime: "02.00 pm",
             city: "Mamoudzou",
-            location :[55.5833, -61.72548]
+            location :[-12.7804169, 45.2279184]
         },
     ],
         description: {
@@ -204,9 +204,9 @@ const destinations = {
 
 	"New Caledonia" : {
         events: [{          
-            name : "Opening : Coral Park Noumea ",
-			description : "Learn about corals life and discover how the park is contributing to rebuild / maintain the barrier reef against climate change",
-			price : "7 EUR per person, free for children until 12 years old",
+            name : "Coral Park Noumea ",
+			description : "Learn about corals life and discover how the park is contributing to rebuild the barrier reef",
+			price : "5 eur per person",
             date : "Sep 6, 2021",
 			localTime: "10.00 am",
             city: "Noumea",
@@ -224,13 +224,13 @@ const destinations = {
 
 	"French Polynesia" : {
         events: [{          
-            name : "Journey at Papeete Pearl Farming",
-			description : "Papeete Pearl farm is opening exceptionnaly to the public. Come and discover how we managed to make this activity sustainable while respecting the animals life",
-			price : "7 EUR per person, free for children until 12 years old",
+            name : "Papeete Pearl Farming",
+			description : "Discover pearl sustainable farming, respecting the animals life",
+			price : "7 eur per person",
             date : "Sep 22, 2021",
 			localTime: "02.00 pm",
-            city: "Basse Terre",
-            location :[15.9966, 61.7317]
+            city: "Papeete",
+            location :[-17.53733, -149.5665]
         },
     ],
         description: {
@@ -247,7 +247,7 @@ const destinations = {
         events: [{          
             name : "Wallis's Vegan Festival",
 			description : "Level up the way you eat without compromising the flavours of Wallis.",
-			price : "12 EUR per person, free for children until 12 years old",
+			price : "3 eur per person",
             date : "Sep 7, 2021",
 			localTime: "02.00 pm",
             city: "Matā'utu",
@@ -267,7 +267,7 @@ const destinations = {
         events: [{          
             name : "Expedition : A ice world",
 			description : "Discover a world of ice and come say hello to penguins in their environment",
-			price : "1500 EUR per person",
+			price : "1500 eur per person - 1 week",
             date : "Oct 22, 2021",
 			localTime: "09.00 am",
             city: "Terre Adelie",
@@ -286,6 +286,10 @@ const destinations = {
 
 }
 
+// Keep selection in dropdown 
+
+
+
 // Initializing the dropdown list
 
 $(document).ready(function () {
@@ -297,6 +301,9 @@ $(document).ready(function () {
     })
 
 })
+
+
+
 
 // Calling the events markers
 
@@ -318,7 +325,11 @@ function loadDestination(destinationName){
         const event = events[i];
         const location = event.location;
         L.marker(location).addTo(map)
-            .bindPopup(`<span><strong>${event.name}</strong></span>`)
+            .bindPopup(`<span><strong>${event.name}</strong></span><br>
+            <span><small><em>${event.description}</em></small></span><br>
+            <span><small><i class="far fa-clock"></i> ${event.date} - ${event.localTime}</small></span><br>
+            <span><small><i class="fas fa-map-pin"></i> ${event.city} </small></span><br>
+            <span><small><i class="fas fa-money-bill"></i> ${event.price}</small></span>`)
             .openPopup();
     } 
 }
