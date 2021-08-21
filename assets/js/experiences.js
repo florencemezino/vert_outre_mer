@@ -1,4 +1,4 @@
-// events content
+// events data per destination
 
 const destinations = {
     "Guadeloupe" : {
@@ -241,6 +241,49 @@ const destinations = {
         },
     
     },   
+
+
+    "Wallis et Futuna" : {
+        events: [{          
+            name : "Wallis's Vegan Festival",
+			description : "Level up the way you eat without compromising the flavours of Wallis.",
+			price : "12 EUR per person, free for children until 12 years old",
+            date : "Sep 7, 2021",
+			localTime: "02.00 pm",
+            city: "Matā'utu",
+            location :[13.282509, -176.176447]
+        },
+    ],
+        description: {
+            title : "Welcome to Wallis et Futuna",
+            description : "Be the first to set foot in these volcanic and paradisiacal lands.",
+            toLink : "https://www.wallis-et-futuna.wf/voyager",
+
+        },
+    
+    },   
+
+    "Terres Australes" : {
+        events: [{          
+            name : "Expedition : A ice world",
+			description : "Discover a world of ice and come say hello to penguins in their environment",
+			price : "1500 EUR per person",
+            date : "Oct 22, 2021",
+			localTime: "09.00 am",
+            city: "Terre Adelie",
+            location :[-43.762953, 63.884533]
+        },
+    ],
+        description: {
+            title : "Welcome to Terres Australes",
+            description : "'Stopovers at the end of the world', a beautiful journey through southern and Antarctic lands",
+            toLink : "https://taaf.fr/acceder-aux-territoires/tourisme-a-bord-du-marion-dufresne/participer-a-une-rotation/",
+
+        },
+    
+    },   
+
+
 }
 
 // Initializing the dropdown list

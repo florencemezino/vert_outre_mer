@@ -286,21 +286,30 @@ All content for illustrations (pictures, icons, photos) can  be found within the
 
 ### Code
 
+1. Destinations page
+* Code pen background image zoom [View] (https://codepen.io/andreaswik/pen/BgqQMG)
+
+
+2. Experiences page
 * Code Institute rosie's resume project : Interactive Front end Development [Here](https://github.com/Code-Institute-Solutions/InteractiveFrontendDevelopment-Resume)
-
-* Stack overflow [View](https://stackoverflow.com/)
-
 * Leaflet mapbox youtube quick start documentation [View](https://leafletjs.com/examples/quick-start/)
-
 * Leaflet mapbox Youtube tutorial / set the map [View](https://youtu.be/-E69eEvP4PI)
-
 * Eventbrite api : [View](https://www.eventbrite.com/platform/api#/introduction/expansions/requesting-expansions)
+* Opendata soft / documentation about french destinations i.e :coordinates  https://documentation-resources.opendatasoft.com/explore/dataset/regions-et-collectivites-doutre-mer-france/api/?disjunctive.reg_name
 
+
+3. News page
+* Newsletter pop up modal [View](https://bootstrap-top-design.com/creer-un-popup-bootstrap/)
+* Code pen background image zoom [View] (https://codepen.io/andreaswik/pen/BgqQMG)
+
+
+4. Contact page
 * EmailJS contact form: [View](https://www.emailjs.com/docs/tutorial/creating-contact-form/)
 
-* Newsletter pop up modal [View](https://bootstrap-top-design.com/creer-un-popup-bootstrap/)
 
-* Code pen background image zoom [View] (https://codepen.io/andreaswik/pen/BgqQMG)
+
+
+
 
 ### Content 
 
