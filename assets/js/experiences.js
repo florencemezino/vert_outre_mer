@@ -341,23 +341,11 @@ function loadDestination(destinationName){
 
 }
 
-// Loading cluster markers
-// Clear markers before adding new ones
+// Loading cluster markers (using L.markerClusterGroup())
 
+// Clear markers before adding new ones (using markers.clearLayers();
 
-
-// Loading destination description
-
-function loadDestination(destinationName){
-    const destination = destinations[destinationName];
-    console.log(destination.descriptions);
-}
-
-
-
-
-
-
+// Loading destination description (using if /else)
 
 
 
@@ -377,10 +365,3 @@ function init () {
     mainLayer.addTo(map);
 
 }
-
-
-
-
-
-
-
