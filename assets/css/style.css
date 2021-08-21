@@ -294,14 +294,14 @@ h2 {
     border : none;
 }
 
-/*
+
 .contact-img{
-    width: 100%;
-    height : auto;
+    max-width:100% ;
+    height:auto;
+    margin-top :20px;
     margin-right : 20px;
-    margin-left : 20px;
+    border-radius:0.5%;
 }
-*/
 
 .fa-quote-left{
     color : #146A84;
