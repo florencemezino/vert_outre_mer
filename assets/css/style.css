@@ -216,6 +216,7 @@ h2 {
 .article-img{
     border-radius : 2%;
     margin-bottom : 15px;
+    position: inherit;
 }
 
 
@@ -301,6 +302,15 @@ h2 {
     margin-top :20px;
     margin-right : 20px;
     border-radius:0.5%;
+}
+
+.form-title {
+    color : #146A84;
+    font-weight: 400;
+}
+
+.form-control{
+    font-size: small;
 }
 
 .fa-quote-left{
