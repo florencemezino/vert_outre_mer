@@ -288,8 +288,6 @@ const destinations = {
 }
 
 
-
-
 // Initializing the dropdown list
 
 $(document).ready(function () {
@@ -324,22 +322,29 @@ const map = L.map('mapid').setView([france.lat, france.lng],zoomLevel);
 function loadDestination(destinationName){
     const destination = destinations[destinationName];
     console.log(destination.events);
-
+    console.log(map)
     var events = destination.events;
 
     for (let i = 0; i < events.length; i++) {
         const event = events[i];
         const location = event.location;
+        
         L.marker(location).addTo(map)
             .bindPopup(`<span><strong>${event.name}</strong></span><br>
             <span><small><em>${event.description}</em></small></span><br>
             <span><small><i class="far fa-clock"></i> ${event.date} - ${event.localTime}</small></span><br>
             <span><small><i class="fas fa-map-pin"></i> ${event.city} </small></span><br>
             <span><small><i class="fas fa-money-bill"></i> ${event.price}</small></span>`)
+                .on('click', (e) => {
+                   document.querySelector('#destination-info').innerHTML = `${destination.descriptions}`
+               })
             .openPopup();
+
+        document.querySelector('#destination-info').innerHTML = `${destination.descriptions.summary}`
     } 
 
 }
+
 
 // Loading cluster markers (using L.markerClusterGroup())
 

@@ -137,9 +137,10 @@ h2 {
 
 #mapid { 
     height: 600px; 
-    width: 850px; 
+    width: 900px; 
     border : 30px, solid, #146A84;
     z-index : 5;
+    margin-left : 20px;
 
 }
 
