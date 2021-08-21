@@ -139,13 +139,28 @@ h2 {
     height: 600px; 
     width: 900px; 
     border : 30px, solid, #146A84;
+    border-radius : 0.5%;
     z-index : 5;
     margin-left : 20px;
-
+    display: flex;
 }
 
 .experience-subtext {
+    color : darkgoldenrod;
     margin-bottom: 50px;
+}
+
+.btn-destination {
+    color: #fafafa;
+    background-color: #146A84;
+    opacity: 0.8;
+
+}
+
+.btn-destination:hover {
+    color: #fafafa;
+    background-color: #146A84;
+    opacity: 1;
 }
 
 

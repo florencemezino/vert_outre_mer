@@ -341,7 +341,7 @@ function loadDestination(destinationName){
             .openPopup();
 
         document.querySelector('#destination-info').innerHTML = `<span style="color:#146A84; font-weight: 300; font-size: 25px;">${destination.descriptions.summary}</span><br> 
-        <span style="color:#146A84;">More information : ${destination.descriptions.toLink}</span>`
+        <span style="color:#BEC0C2;">More information : ${destination.descriptions.toLink}</span>`
     } 
 
 }
@@ -367,6 +367,7 @@ function init () {
 
     mainLayer.addTo(map);
 
+ 
 }
 
 $.getJSON('world.geo.json', function (geojson) { // load file
