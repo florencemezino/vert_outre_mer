@@ -25,58 +25,44 @@ Most common paths through the website:
 
 
 1. As a traveller, I want to have an overview of the French overseas destinations so that I can identify my destination options 
--
--
--
+- Upon entering the website, travellers have an immediate idea of the purpose of the websitewith the list of the destinations.
+- the hero image invites to travel as it is in mouvement. The mouse hover allows a nice zoom on the heading content, which give an ipression of immersion within the website and the destinations
+- Users have 3 options :
+    * Click on a destination which redirect them to the tourism office website of the destination within a new tab
+    * Click on the Explore button which redirects the users to the experiences page
+    * Click on the get in touch button which redirects them to the contact page 
+
 
 2. As a traveller, I want to see the upcoming events/experiences in a chosen destination so that I can organise my activities during my stay.
--
--
--
+- Upon opening the experiences page, the user can find an interactive map. 
+- Users are able to control / trigger events and activity bases on the selected desination
 
-3. A s a traveller, I want to see ideas about places to stay such as guest houses so that I can meet locals and experience the destination in a authentic way.
--
--
--
+3. As a traveller, I want to see ideas about places to stay such as guest houses so that I can meet locals and experience the destination in a authentic way.
+- Users can have access to practical information thanks to the link present in the first page
 
-4. As a traveller, I want to have access to a list of local restaurants which have good sustainable practices so that I can discover and enjoy great local food specialities
--
--
--
 
-5. As a traveller, I want to know what are sustainable options to move around such as e-car, carpooling, bike/e-bike, public transport so that I can respecfully explore the destination
--
--
--
+4. As a traveller I want to easily contact an agency so that I can have more information / advice before travelling to the destination
+- User cna use the contact form in the about section in order to contact the agency.
 
-6. As a traveller I want to easily contract an agency so that I can have more information / advice before travelling ot the destination
--
--
--
 
-7. As a tourism professionnal I would like to have more online visibility so that I can attract more clients with a green mindset to my business
--
--
--
+5. As a tourism professionnal I would like to have more online visibility so that I can attract more clients with a green mindset to my business
+- Users tourism professionnal can promote their activity in the news category 
+- They can also promote their activity as a evnt on the map
 
-8. As a tourism professionnal I want to be able to support local businesses who invest in sustainable practices so that the destination can improve their offer and contribute to sustainable tourism in the destination
--
--
--
 
-9. As a tourism professionnal I would like to have information about how to get a « Vert ‘Outre Mer » label so that I can better promote my business and sustainable practices
--
--
--
+
+6. As a tourism professionnal I would like to have information about how to get a « Vert Outre Mer » label so that I can better promote my business and sustainable practices
+- Users can use the contact form to get in touch with the agency for advice
+
 
 
 
 #### As a traveller / tourism profesionnal and returning visitor to the website :
 
 1. As a traveller, I want to see different French overseas destinations so that I can make up my mind regarding the destination to visit.
--
--
--
+- From the first page, users can make up their mind by clicking on one of the destination
+- Users can have some more information about the destination when selecting a destination 
+
 
 2. As a traveller, I want to see how my contribution / donation has impacted the destination to improve their sustainable practices so that evaluate my involvment
 -
