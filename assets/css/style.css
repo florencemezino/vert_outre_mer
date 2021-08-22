@@ -85,28 +85,39 @@ h1 {
 
 h2 {
     color: #fafafa;
-    -webkit-text-stroke: 1px #fafafa;
     font-size: 400px;
     font-weight: 600;
+    letter-spacing : 2px;
     margin-top: 50px;
     padding-bottom : 100px;
+    display: table; 
+    margin: 50px auto 0px auto; 
+    padding:5px;font-size:20px;background-color: #146A84;color:#fafafa;opacity:0.8;
+    border-radius : 0.5%;
+    
 
 }
 
 .destination-item {
     color : #fafafa;
     font-weight: 200;
+    letter-spacing : 2px;
     line-height: 25px;
-    margin-bottom : 30px;
-
+   
 }
 
 .destination-item:hover {
     color : #fafafa;
+    padding:5px;font-size:20px;background-color: #BEC0C2;color:#fafafa;opacity:0.8;
+    text-decoration :none;
+    transition: all .4s ease;
+    -webkit-transition: all .6s ease;
+    border-radius : 2%;
 }
 
 .separation-item {
-    color : #fafafa;
+    color :darkgoldenrod;
+    font-weight : 500;
 }
 
 
@@ -114,6 +125,7 @@ h2 {
     color: #fafafa;
     background-color :darkgoldenrod;
     border : none;
+    margin-top: 60px;
 }
 
 .btn-explore:hover {
@@ -127,6 +139,21 @@ h2 {
     background-color : #146A84 !important;
     border : none;
 
+}
+
+
+.btn-contact{
+    color: #fafafa;
+    background-color :#545B62;
+    border : none;
+    margin-top: 60px;
+}
+
+
+.btn-contact:hover{
+    color: #545B62;
+    background-color :#fafafa;
+    border : none;
 }
 
 
@@ -300,17 +327,6 @@ h2 {
     text-align: center;
 }
 
-.btn-contact{
-    color: #fafafa;
-    background-color :#545B62;
-    border : none;
-}
-
-.btn-contact:hover{
-    color: #545B62;
-    background-color :#fafafa;
-    border : none;
-}
 
 
 .contact-img{

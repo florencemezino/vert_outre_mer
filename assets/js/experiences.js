@@ -93,7 +93,7 @@ const destinations = {
         descriptions: {
             title : "Welcome to Martinique",
             summary : "Martinique boasts a whole world of natural wonders. The beautiful island offers a seductive mix of magnificent beaches, dramatic mountains, tropical gardens, and fascinating history.",
-            toLink : "https://www.saintbarth-tourisme.com/",
+            toLink : "https://www.martinique.org/node/35905/ORGMAR972V500ENJ/detail/fort-de-france/office-de-tourisme-centre-de-martinique",
         },
     
     },
