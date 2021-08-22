@@ -309,7 +309,9 @@ $("#dropdown-list a").click(function(){
 
 
 
+
 // Loading destination events markers
+
 
 const france = {
     lat : 46.7111,
@@ -318,8 +320,21 @@ const france = {
 const zoomLevel = 3;
 
 const map = L.map('mapid').setView([france.lat, france.lng],zoomLevel);
+// 
+let markers = [];
+// 
 
 function loadDestination(destinationName){
+    // 
+    if (markers.length > 0) {
+        for(let i = 0; i < markers.length; i++) {
+            map.removeLayer(markers[i]);
+        }
+    
+        markers = []
+    }
+    // 
+
     const destination = destinations[destinationName];
     console.log(destination.events);
     console.log(map)
@@ -328,28 +343,31 @@ function loadDestination(destinationName){
     for (let i = 0; i < events.length; i++) {
         const event = events[i];
         const location = event.location;
-        
-        L.marker(location).addTo(map)
+        // 
+        const marker = new L.marker(location);
+        markers.push(marker);
+        // 
+        marker.addTo(map)
             .bindPopup(`<span style="color:#146A84;"><strong>${event.name}</strong></span><br>
             <span style="color: #146A84;"><small><em>${event.description}</em></small></span><br>
             <span><small><i class="far fa-clock"></i> ${event.date} - ${event.localTime}</small></span><br>
             <span><small><i class="fas fa-map-pin"></i> ${event.city} </small></span><br>
             <span><small><i class="fas fa-money-bill"></i> ${event.price}</small></span>`)
-                .on('click', (e) => {
-                   document.querySelector('#destination-info').innerHTML = `${destination.descriptions}`
-               })
+            // .on('click', (e) => {
+            //     document.querySelector('#destination-info').innerHTML = `${destination.descriptions.summary}`
+            // })
             .openPopup();
 
         document.querySelector('#destination-info').innerHTML = `<span style="color:#146A84; font-weight: 300; font-size: 25px;">${destination.descriptions.summary}</span><br> 
         <span style="color:#BEC0C2;">More information : ${destination.descriptions.toLink}</span>`
     } 
-
 }
+
 
 
 // Loading cluster markers (using L.markerClusterGroup())
 
-// Clear markers before adding new ones (using markers.clearLayers();
+// Clear markers before adding new ones every time we select a new destination (using markers.clearLayers();
 
 
 // rendering leaflet map
@@ -370,14 +388,14 @@ function init () {
  
 }
 
-$.getJSON('world.geo.json', function (geojson) { // load file
-    L.geoJson(geojson, { // initialize layer with data
-        style: function (feature) { // Style option
-            return {
-                'weight': 1,
-                'color': '#146A84',
-                'fillColor': 'darkgoldenrod'
-            }
-        }
-    }).addTo(map); // Add layer to map
-});
+// $.getJSON('world.geo.json', function (geojson) { // load file
+//     L.geoJson(geojson, { // initialize layer with data
+//         style: function (feature) { // Style option
+//             return {
+//                 'weight': 1,
+//                 'color': '#146A84',
+//                 'fillColor': 'darkgoldenrod'
+//             }
+//         }
+//     }).addTo(map); // Add layer to map
+// });
