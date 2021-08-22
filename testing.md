@@ -24,7 +24,7 @@ Most common paths through the website:
 #### As a traveller / tourism profesionnal and new visitor to the website ::
 
 
-1. As a traveller, I want to have an overview of the French overseas destinations so that I can identidy my destination options 
+1. As a traveller, I want to have an overview of the French overseas destinations so that I can identify my destination options 
 -
 -
 -

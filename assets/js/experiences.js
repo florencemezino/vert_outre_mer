@@ -266,7 +266,7 @@ const destinations = {
 
     "Terres Australes" : {
         events: [{          
-            name : "Expedition : A ice world",
+            name : "Expedition : An ice world",
 			description : "Discover a world of ice and come say hello to penguins in their environment",
 			price : "1500 eur per person - 1 week",
             date : "Oct 22, 2021",

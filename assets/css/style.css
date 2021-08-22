@@ -93,6 +93,23 @@ h2 {
 
 }
 
+.destination-item {
+    color : #fafafa;
+    font-weight: 200;
+    line-height: 25px;
+    margin-bottom : 30px;
+
+}
+
+.destination-item:hover {
+    color : #fafafa;
+}
+
+.separation-item {
+    color : #fafafa;
+}
+
+
 .btn-explore {
     color: #fafafa;
     background-color :darkgoldenrod;
