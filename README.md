@@ -288,6 +288,7 @@ All content for illustrations (pictures, icons, photos) can  be found within the
 
 1. Destinations page
 * Code pen background image zoom [View] (https://codepen.io/andreaswik/pen/BgqQMG)
+* Background for text [View](https://stackoverflow.com/questions/14310154/how-do-i-set-a-background-color-for-the-width-of-text-not-the-width-of-the-enti)
 
 
 2. Experiences page

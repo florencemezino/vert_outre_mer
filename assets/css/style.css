@@ -78,7 +78,7 @@ h1 {
     color : darkgoldenrod;
     margin: 0;
     -webkit-text-stroke: 1px #fafafa;
-    font-size: 200px;
+    font-size: 600px;
     margin-top : 100px;
 }
 
@@ -182,15 +182,28 @@ h2 {
 #mapid { 
     height: 600px; 
     width: 900px; 
-    border : 30px, solid, #146A84;
-    border-radius : 0.5%;
-    z-index : 5;
     margin-left : 20px;
-    display: flex;
+    border-radius : 0.5%;
+    position: center;
+    z-index : 5;
+    display :flex;
+    position: relative;
+
+}
+
+.map-style {
+    background-color: #D5B881;
+    margin-top : 20px;
+    padding-top : 30px;
+    padding-bottom : 30px;
+    padding-right : 30px;
+    border-radius :2%;
+    display :flex;
+    position: relative;
 }
 
 .experience-subtext {
-    color : darkgoldenrod;
+    color : #545B62;
     margin-bottom: 50px;
 }
 
@@ -206,6 +219,8 @@ h2 {
     background-color: #146A84;
     opacity: 1;
 }
+
+
 
 
 /* -------------------------------------------------------------------------------------------- News*/

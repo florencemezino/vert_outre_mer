@@ -141,6 +141,7 @@ const destinations = {
 		{          
             name : "La Maison de l'Ecologie",
 			description : "Come and learn about the biodiversity protection in Reunion Island .",
+            price : "5 eur per person",
             date : "Oct 24, 2021",
 			localTime: "09.00 am",
             city: "Saint Denis",
@@ -364,11 +365,7 @@ function loadDestination(destinationName){
 }
 
 
-
 // Loading cluster markers (using L.markerClusterGroup())
-
-// Clear markers before adding new ones every time we select a new destination (using markers.clearLayers();
-
 
 // rendering leaflet map
 
@@ -388,14 +385,30 @@ function init () {
  
 }
 
-// $.getJSON('world.geo.json', function (geojson) { // load file
-//     L.geoJson(geojson, { // initialize layer with data
-//         style: function (feature) { // Style option
-//             return {
-//                 'weight': 1,
-//                 'color': '#146A84',
-//                 'fillColor': 'darkgoldenrod'
-//             }
-//         }
-//     }).addTo(map); // Add layer to map
-// });
+// leaflet map style
+
+/*
+
+var map = L.map('map', {
+    'center': [0, 0],
+    'zoom': 0,
+    'layers': [
+        L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            'attribution': 'Map data &copy; OpenStreetMap contributors'
+        })
+    ]
+});
+
+ $.getJSON('world.geo.json', function (geojson) { // load file
+    L.geoJson(geojson, { // initialize layer with data
+        style: function (feature) { // Style option
+           return {
+                 'weight': 1,
+                 'color': '#146A84',
+                 'fillColor': 'darkgoldenrod'
+            }
+         }
+     }).addTo(map); // Add layer to map
+ });
+
+ */
