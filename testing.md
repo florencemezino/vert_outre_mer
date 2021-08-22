@@ -56,7 +56,6 @@ Most common paths through the website:
 
 
 
-
 #### As a traveller / tourism profesionnal and returning visitor to the website :
 
 1. As a traveller, I want to see different French overseas destinations so that I can make up my mind regarding the destination to visit.
@@ -64,65 +63,53 @@ Most common paths through the website:
 - Users can have some more information about the destination when selecting a destination 
 
 
-2. As a traveller, I want to see how my contribution / donation has impacted the destination to improve their sustainable practices so that evaluate my involvment
--
--
--
 
+2. As a tourism professionnal I would like to communicate more about my practices and would like « Vert Outre Mer » to offer to write an article about my activity on their website every semester/trimester so that I can gain visibility and show my progress in terms of sustainable tourism. 
+- From the news page, users can appreciatea a list of news articles.  
+- There are different types of articles : about sustainable tourism and xompanies with green practices
 
-3. As a tourism professionnal I would like to communicate more about my practices and would like « Vert l’Outre Mer » to offer to write an article about my activity on their 
-website every semester/trimester so that I can gain visibility and show my progress in terms of sustainable tourism. 
--
--
--
-
-4. As a tourism professionnal I want to be able to share articles written about my activity easily on social media so that I can attract new clients
--
--
--
 
 #### Frequent User Goals
 
 
 1. As a local visitors I want to see if there are any new local events/experiences organized per month so that I can participate
--
--
--
+- By selecting one destination, a list of events appears on the map. On the event description, the date and other details about the event are mentionned.
+
 
 2. As a tourism professionnal, I want to be informed about sustainabile news / actions so that I am aware of the latest sustainable trends and possibbly apply them to my activity 
--
--
--
+- User can subscribe to a newsletter thanks to a button subcribe present in the news page.
+
 
 
 ### Manual (logical) testing of all elements and functionality on every page.
 
-#### Destiination
+#### Destinations
 
 1. Header / Navigation bar
-- Go to "About me" from a desktop
-- Click on the logo : we are redirected to the main page "About me"
+- Go to "Destinations" from a desktop
+- Click on the logo : we are redirected to the main page "Destinations"
 - Click on a different tab of the navigation bar to check if the active tab is highlighted when clicked and visiting the related page
-- Click on the "Download CV button : a new tab opens to download CV in pdf format
-- Click on  Github icon : a new tab opens to visit the github profile of the applicant
+- Click on the "Explore" : we are redirected to the experiences page
+- Click on  Get in touch : we are redirected to the contact page
 
-- Check if navigation bar is responsive on tablet and mobile. Confirm navigation bar collapses to become an hamburger menu with a dropdown of the navigation links.
+- Check if navigation bar is responsive on tablet and mobile. Confirm navigation bar collapses to become an toggle menu with a dropdown of the navigation links.
 
 2. Footer
-- Go to "About me" from a desktop
+- Go to "Destinations" from a desktop
 - Check if footer stick to the bottom of the page and is responsive
-- Click on social media links Twitter and Linkedin. Both option open a new tab to the related website.
+- Click on social media links Facebook, Twitter and Instagram. The three links redirects to the respective social media.
 
 
 3. Hero image
-- Go to "About me" from a desktop
+- Go to "Destination" from a desktop
 - Confirm hero image is visible and responsive on all devices.
+- Confirm mouse hover hero image works by zooming on content
 
 
 4. Website purpose / description
-- Go to "About me" from a desktop
-- Confirm that the profile description is over the hero image.
-- Confirm the profile description is responsive on all devices.
+- Go to "Destinations" from a desktop
+- Confirm that the purpose is stated and all destinations are listed.
+- Confirm the headings  are responsive on all devices.
 
 
 
@@ -136,19 +123,11 @@ website every semester/trimester so that I can gain visibility and show my progr
 2. Footer
 - Fooder code is identical on all html pages. Testing already completed.
 
-3. Cards for fields of Expertise
-- Go to "Expertise" from a desktop
-- The Expertise page title "Skillset" appears with the  icon in front of it.
-- Check if the 6 fields of expertise appears like 3 cards on each row and check responsiveness.
-- Check the ligh frey background behind the field of expertise if it appears.
-
-
-3. Porgressbar for skills set
-- Go to "Expertise" from a desktop
-- Check the photo to see if it is responsive and if it is in front of the progress bar on the same row.
-- Check the progress bar to verify layout and color.
-- Check if the tech languages labels appears for each bar.
-- Check if percentage appears per bar.
+3. Dropdown to select a destination
+- Go to "Experiences from a desktop
+- The Experiences page appears with a description , a map and a drodown menu
+    - destination name remains in the field 
+    - when selecting a destination a description appears and events mrkers appear on the map
 
 
 > For every point mentionned above : Repeat verification of functionality and responsiveness on mobile phone and tablet via Developer Tool,
@@ -162,19 +141,14 @@ website every semester/trimester so that I can gain visibility and show my progr
 2. Footer
 - Footer code is identical on all html pages. Testing already completed.
 
-3. Timeline for work experience
-- Go to "Projects" from a desktop
-- Check if the title " Coding journey" appears.
-- Check if the timeline appears vertically with title of experience, description, logo and date.
-- Check if 4 experiences shows up in the timeline.
-- Check if the photo is on the same row a the timeline.
+3. Articles / News
+- Go to "News" from a desktop
+- Check if the title of the report article appears
+- Check if the remaining articles appears well with the description
 
-4. Album for projects portfolio
-- Check if 4 album components presenting 4 projects appear and chekc if it is 2 projects on each row.
-- Check the quality of the image displayed for each project
-- Check if "View Github repo" button works for each project. 
-- Check if the languages used to make these 4 fake projects are displayed in the bottom right corner of the albun component. 
-- Check if Like button works ( see future features section in readme.md file)
+4. Subcribe to newsletter
+- Check if the content is well responsive
+- Check the quality of the  content/image displayed for each article
 
 
 > Repeat verification of functionality and responsiveness on mobile phone and tablet via Developer Tool
@@ -193,13 +167,7 @@ website every semester/trimester so that I can gain visibility and show my progr
 - Check contact form layout and colors
 - Check if functionality " required field" works properly
 - Check for the contact form to clear up as soon as the form if submitted with the send button
-- Check if light grey background is in place behind the contact form
-- Check if the photo is on the same row , side by side with the contact form
-
-4. Cards testimonies/ recommendations
-- Go to "Contact" from a desktop
-- Check the 4 testimonies / recommendations at the bottom of the page above the footer to see responsiveness.
-- Check if the button with the name of each person redirects to more information about the person via a new tab.
+- Check if email is received via email.js
 
 
 > Repeat verification of functionality and responsiveness on mobile phone and tablet via Developer Tool
@@ -213,7 +181,6 @@ website every semester/trimester so that I can gain visibility and show my progr
 
 ## Known Bugs
 
-* Hero image and profile description not responsive
 * Footer overlapping on content on mobile version
 
 
