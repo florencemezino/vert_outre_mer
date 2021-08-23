@@ -14,7 +14,7 @@ const destinations = {
 
 		{          
             name : "Carribean Festival",
-			description : "Dicover the music of the Carribeans. Plastic free concert. ",
+			description : "Dicover the music of the Carribeans. Plastic free concert.",
 			price : "15 eur per person",
             date : "Oct 15, 2021",
 			localTime: "06.00 pm",
@@ -26,6 +26,7 @@ const destinations = {
 			title : "Welcome to Guadeloupe",
             summary : "Guadeloupe is an archipelago and overseas department and region of France in the Caribbean. Whether walking through lively village streets, touring country lanes or gliding between island by ferry, Guadeloupe serves up a rich menu of unique cultural experiences.",
             toLink : "https://www.lesilesdeguadeloupe.com/tourisme/fr-fr/",
+            image : "assets/css/images/destinations/guadeloupe.jpeg",
         },
     
     },
@@ -44,7 +45,8 @@ const destinations = {
         descriptions: {
 			title : "Welcome to Saint Martin",
             summary : "The culture of Saint Martin is a blend of its African, French, British, and Dutch heritage.Saint Martin is known to be the capital of duty free and gastronomy in the Caribbean. The warm hospitality of its people, its diversity and its varied cultural activities all allowed it to be nicknamed the 'Friendly Island'",
-            toLink : "https://www.st-martin.org/",    
+            toLink : "https://www.st-martin.org/",
+            image : "assets/css/images/destinations/saint-martin.jpeg",    
         },
     
     },
@@ -62,8 +64,9 @@ const destinations = {
     ],
         descriptions: {
             title : "Welcome to Saint Barthelemy",
-            summary: "Saint Barthelemy, also called saint Barth is a small tourism-oriented island in the Caribbean with remarkable natural scenery.",
+            summary: "Beaches with turquoise water near luxuriant nature and one of the best healthy and natural gastronomies in the world, Saint Barthelemy, also called saint Barts is a small tourism-oriented island in the Caribbean with remarkable natural scenery. Visit Saint Barts with an endless trail in the French caribean island.",
             toLink : "https://www.saintbarth-tourisme.com/",
+            image : "assets/css/images/destinations/saint-barthelemy.jpeg",
 
         },
     
@@ -92,8 +95,9 @@ const destinations = {
     ],
         descriptions: {
             title : "Welcome to Martinique",
-            summary : "Martinique boasts a whole world of natural wonders. The beautiful island offers a seductive mix of magnificent beaches, dramatic mountains, tropical gardens, and fascinating history.",
+            summary : "Lauded as the best Caribbean vacation destination, Martinique or “Madinina” to the Caribbean Indians, is located in the heart of the Caribbean archipelago, and is part of the Lesser Antilles, or 'Windward Islands'. Martinique boasts a whole world of natural wonders. The beautiful island offers a seductive mix of magnificent beaches, dramatic mountains and tropical gardens.",
             toLink : "https://www.martinique.org/node/35905/ORGMAR972V500ENJ/detail/fort-de-france/office-de-tourisme-centre-de-martinique",
+            image : "assets/css/images/destinations/martinique.jpeg",
         },
     
     },
@@ -121,8 +125,9 @@ const destinations = {
     ],
         descriptions: {
             title : "Welcome to French Guiana",
-            summary : "Located between the Republic of Suriname and Brazil, French Guiana is a kingdom of forests, rivers and animals and seduces all nature lovers. It is also well knonw for its famous cayenne chilli pepper",
+            summary : "Located between the Republic of Suriname and Brazil, French Guiana is a paradise for ecotourism and a kingdom of forests, rivers and animals and seduces all nature lovers. Here, the dream is inevitably immense. The first symbol of this destination is the European Spatial Center in Kourou, which helps to open the doors of knowledge of the universe",
             toLink : "https://www.guyane-amazonie.fr/",
+            image : "assets/css/images/destinations/frenchguiana.jpeg",
         },
     
     },
@@ -160,8 +165,9 @@ const destinations = {
     ],
         descriptions: {
             title : "Welcome to Reunion Island",
-            summary : "Located in the Archipelago of Mascareignes, Reunion Island offers an infinite number of amazing sites and contrasting landscapes. The island is known for the spectacular Piton de la Fournaise, an active basaltic volcano.",
-            toLink : "https://www.reunion.fr/"
+            summary : "It’s possible to combine protecting nature with tourism! And this is exactly the sort of holiday you can enjoy on Reunion Island. With 40 per cent of the island designated by UNESCO as a World Heritage Site, protecting nature has become a real priority here. Reunion Island offers an infinite number of amazing sites and contrasting landscapes. The island is known for the spectacular Piton de la Fournaise, an active basaltic volcano.",
+            toLink : "https://www.reunion.fr/",
+            image : "assets/css/images/destinations/reunion-island.jpeg",
         },
     
     },
@@ -179,8 +185,9 @@ const destinations = {
     ],
         descriptions: {
             title : "Welcome to Saint Pierre et Miquelon",
-            summary : "Between the friendly bonjours and the delicate pastries come and discover the two beautiful islands of Saint Pierre et Miquelon, a real piece of France in North America",
+            summary : "A trip to the French islands of Saint-Pierre and Miquelon is a must for anyone planning travel in eastern Newfoundland. The winding narrow streets of Saint-Pierre are filled with vibrant shops and must-try restaurants. Between the friendly bonjours and the delicate pastries come and discover the two beautiful islands of Saint Pierre et Miquelon, a real piece of France in North America.",
             toLink : "http://www.spm-tourisme.fr/",
+            image : "assets/css/images/destinations/saintpierreetmiquelon.jpeg",
         },
     
     },
@@ -198,8 +205,9 @@ const destinations = {
     ],
         descriptions: {
             title : "Welcome to Mayotte",
-            summary : "The island of Mayotte has an abundance of endemic fauna and flora. It is an authentic island to visit in the Indian Ocean.",
+            summary : "The island of Mayotte has an abundance of endemic fauna and flora. Wherever you are, you are sure to find beautiful beaches. Fans of snorkelling will be able to see various types of turtles as well as numerous tropical fish in the lagoon. Mayotte's ecosystem holds botanical treasures like the ylang-ylang flower, which is very scented, coconut and breadfruit trees. ",
             toLink : "https://www.mayotte-tourisme.com/",
+            image : "assets/css/images/destinations/mayotte.jpeg",
         },
     
     },
@@ -217,8 +225,9 @@ const destinations = {
     ],
         descriptions: {
             title : "Welcome to New Caledonia",
-            summary : "Located in the world’s largest lagoon and possessing the second-largest barrier reef, New Caledonia has so much to offer.",
+            summary : "New Caledonia is like nowhere else:  a lagoon registered on the Unesco world heritage list. A main island, Grande Terre, with spectacular natural scenery, a true adventure playground. Jaw-dropping islands will reveal the perfect combination of amazing landscapes and superb hospitality.",
             toLink : "https://www.nouvellecaledonie.travel/fr/offices-tourisme",
+            image : "assets/css/images/destinations/newcaledonia.jpeg",
 
         },
     
@@ -237,8 +246,9 @@ const destinations = {
     ],
         descriptions: {
             title : "Welcome to French Polynesia",
-            summary : "Exotic wildlife, impeccable cuisine, welcoming locals, French Polynesia is your new tropical vacation destination.",
+            summary : "Follow Paul Gauguin to the middle of the Pacific Ocean. The five archipelagoes of French Polynesia contain 118 islands - 76 of them inhabited - and just as many landscapes, from volcanoes to coral reefs. Exotic wildlife, impeccable cuisine, welcoming locals, French Polynesia is your new tropical vacation destination.",
             toLink : "https://tahititourisme.fr/fr-fr/",
+            image : "assets/css/images/destinations/frenchpolynesia.jpeg",
 
         },
     
@@ -258,8 +268,9 @@ const destinations = {
     ],
         descriptions: {
             title : "Welcome to Wallis et Futuna",
-            summary : "Be the first to set foot in these volcanic and paradisiacal lands.",
+            summary : "Wallis and Futuna is a collection of three islands and various tiny islets that offer visitors the opportunity to bask in the beauty of unspoilt nature, while maintaining the comforts of home. Wallis is completely surrounded by coral reefs, creating a lagoon-like appearance between the reef and the shores of the beach. Be the first to set foot in these volcanic and paradisiacal lands.",
             toLink : "https://www.wallis-et-futuna.wf/voyager",
+            image : "assets/css/images/destinations/wallisetfutuna.jpeg",
 
         },
     
@@ -280,7 +291,7 @@ const destinations = {
             title : "Welcome to Terres Australes",
             summary : "'Stopovers at the end of the world', a beautiful journey through southern and Antarctic lands",
             toLink : "https://taaf.fr/acceder-aux-territoires/tourisme-a-bord-du-marion-dufresne/participer-a-une-rotation/",
-
+            image : "assets/css/images/destinations/terresaustrales.jpeg",
         },
     
     },   
@@ -307,7 +318,6 @@ $("#dropdown-list a").click(function(){
     $(this).parents(".dropdown").find('.btn').html($(this).text() + ' <span class="caret"></span>');
     $(this).parents(".dropdown").find('.btn').val($(this).data('value'));
   });
-
 
 
 
@@ -354,18 +364,14 @@ function loadDestination(destinationName){
             <span><small><i class="far fa-clock"></i> ${event.date} - ${event.localTime}</small></span><br>
             <span><small><i class="fas fa-map-pin"></i> ${event.city} </small></span><br>
             <span><small><i class="fas fa-money-bill"></i> ${event.price}</small></span>`)
-            // .on('click', (e) => {
-            //     document.querySelector('#destination-info').innerHTML = `${destination.descriptions.summary}`
-            // })
             .openPopup();
 
-        document.querySelector('#destination-info').innerHTML = `<span style="color:#146A84; font-weight: 300; font-size: 25px; ${destination.descriptions.summary};"></span><br> 
-        <span style="color:#BEC0C2;">More information : ${destination.descriptions.toLink}</span>`
+        document.querySelector('#destination-info').innerHTML = `<span style="color:#146A84; font-weight: 300; font-size: 20px; margin-top:10px;">${destination.descriptions.summary}
+        <a href="${destination.descriptions.toLink}" style="color:#BEC0C2; text-decoration:"underline" target="_blank">read more</a></span><br>
+        <img src="${destination.descriptions.image}" style="border-radius:0.5%; margin-top:10px;"></img>`
     } 
 }
 
-
-// Loading cluster markers (using L.markerClusterGroup())
 
 // rendering leaflet map
 
@@ -385,30 +391,3 @@ function init () {
  
 }
 
-// leaflet map style
-
-/*
-
-var map = L.map('map', {
-    'center': [0, 0],
-    'zoom': 0,
-    'layers': [
-        L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-            'attribution': 'Map data &copy; OpenStreetMap contributors'
-        })
-    ]
-});
-
- $.getJSON('world.geo.json', function (geojson) { // load file
-    L.geoJson(geojson, { // initialize layer with data
-        style: function (feature) { // Style option
-           return {
-                 'weight': 1,
-                 'color': '#146A84',
-                 'fillColor': 'darkgoldenrod'
-            }
-         }
-     }).addTo(map); // Add layer to map
- });
-
- */

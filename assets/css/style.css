@@ -6,15 +6,21 @@
     padding:0;
 }
 
-.body {
-    color: #fafafa;
+html, body { 
+    width: 100%;
+    height: 100%;
     font-family: 'Montserrat','sans serif';
 }
 
-html, body { 
-    height: 100%;
-
+main {
+    flex-grow: 1;
 }
+
+
+header, main, footer {
+    flex-shrink: 0;
+}
+
 
 /* -------------------------------------------------------------------------------------------- Header*/
 /* Nav bar */
@@ -76,23 +82,25 @@ html, body {
 h1 {
     
     color : darkgoldenrod;
+    font-weight : 700;
     margin: 0;
-    -webkit-text-stroke: 1px #fafafa;
-    font-size: 600px;
     margin-top : 100px;
+    -webkit-text-stroke: 0.8px #fafafa;
+    font-size: bolder;
+
 }
 
 
 h2 {
-    color: #fafafa;
+    color: darkgoldenrod;
     font-size: 400px;
-    font-weight: 600;
+    font-weight: bold;
     letter-spacing : 2px;
     margin-top: 50px;
     padding-bottom : 100px;
     display: table; 
     margin: 50px auto 0px auto; 
-    padding:5px;font-size:20px;background-color: #146A84;color:#fafafa;opacity:0.8;
+    padding:5px;font-size:20px;background-color: darkgoldenrod;color:#fafafa;opacity:0.8;
     border-radius : 0.5%;
     
 
@@ -111,7 +119,7 @@ h2 {
     padding:5px;font-size:20px;background-color: #BEC0C2;color:#fafafa;opacity:0.8;
     text-decoration :none;
     transition: all .4s ease;
-    -webkit-transition: all .6s ease;
+    -webkit-transition: all 0.6 ease;
     border-radius : 2%;
 }
 
@@ -141,7 +149,6 @@ h2 {
 
 }
 
-
 .btn-contact{
     color: #fafafa;
     background-color :#545B62;
@@ -163,7 +170,7 @@ h2 {
     width: 100%;
     height: 100vh;
     overflow: hidden;
-    position: relative;
+    position: fixed;
 }
 
 .hero-img-holder {
@@ -193,7 +200,8 @@ h2 {
 
 .map-style {
     background-color: #D5B881;
-    margin-top : 20px;
+    margin-top : 80px;
+    Margin-left : 10px;
     padding-top : 30px;
     padding-bottom : 30px;
     padding-right : 30px;
@@ -225,6 +233,10 @@ h2 {
 
 /* -------------------------------------------------------------------------------------------- News*/
 
+
+
+/* zoom report article photo */
+
 .news-report {
     color : #fafafa;
     margin-top : 20px;
@@ -236,6 +248,26 @@ h2 {
     border-radius : 0.5%;
 
 }
+
+.report-img-container {
+    width: 300px;
+    height: 200px;
+    border-radius : 2%;
+
+}
+
+.report-img-holder {
+    max-width: 100%;
+    height: 100%;
+    background: url(assets/css/images/lareunionreport.jpeg);
+    border-radius : 2%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 1s;
+    
+}
+
 
 
 .article-france {
@@ -279,28 +311,6 @@ h2 {
 }
 
 
-/* zoom report article photo */
-
-.report-img-container {
-    width: 300px;
-    height: 200px;
-    overflow: hidden;
-    position: relative;
-    border-radius : 2%;
-
-}
-
-.report-img-holder {
-    width: 100%;
-    height: 100%;
-    background: url(assets/css/images/lareunionreport.jpeg);
-    border-radius : 2%;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    transition: all 1s;
-    
-}
 
 /* Newsletter */
 
@@ -343,13 +353,13 @@ h2 {
 }
 
 
-
 .contact-img{
-    max-width:100% ;
-    height:auto;
-    margin-top :20px;
-    margin-right : 20px;
-    border-radius:0.5%;
+    max-width : 100%;
+    height: 100vh;
+    margin-top : 20px;
+    margin-right : 10px;
+    padding-left : 50px;
+    border-radius: 0.5%;
 }
 
 .form-title {
