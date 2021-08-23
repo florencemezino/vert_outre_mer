@@ -18,7 +18,7 @@
 </head>
 
 <body>
-  <!-- Fixed navbar --> 
+  <!-- navigation bar --> 
     <header>
       <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
           <div class="container-fluid">
@@ -45,14 +45,10 @@
           </div>
       </nav>
   </header>
-    <!--./Fixed navbar --> 
+  <!--./ navigation bar --> 
 
 
-    
-  <!-- News --> 
-
-    <!-- Main Article -->
-
+  <!-- main article -->
     <main class="container-fluid ">
       <div class="p-4 row p-md-5 mb-4 text-white main-article">
         <div class="col-md-6 px-0 news-report">
@@ -63,194 +59,185 @@
           <p class="lead mb-0"><a href="https://regionreunion.com/sites/conference-internationale-sur-l-adaptation-au-changement-climatique/international-conference-on-climate-change-adaptation/news-international-conference-on-climate-change-adaptation/reunion-green-revolution-international-conference-on-climate-change-adaptation" class="text-white fw-bold" target="_blank">Continue reading...</a></p>
         </div>
         <div class="col-md-6 px-0 report-img-container">
-          <img src ="assets/css/images/lareunionreport.jpeg" width="250" height="150" role="img" class ="report-img-holder" aria-label="landscape with camping tent">
+          <img src ="assets/css/images/lareunionreport.jpeg" width="250" height="150" class ="report-img-holder" alt="mountains">
         </div>
       </div>
-    </div>
-     
-  <!--./ Main Article --> 
+
+  <!--./ main article --> 
   
   
-      <!-- Newsletter pop up-->
-      <div class= "container text-center">
-          <button type="button" class="btn btn-explore btn-newsletter" id="subscribe-btn" data-toggle="modal" data-target="#popup">
-        Subscribe to our Newsletter
-        </button>
-
-
+  <!-- newsletter pop up-->
+    <div class= "container text-center">
+      <button type="button" class="btn btn-explore btn-newsletter" id="subscribe-btn" data-toggle="modal" data-target="#popup">
+      Subscribe to our Newsletter
+      </button>
       <div id="popup" class="modal">
-          <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-            <div class="modal-header">
-              <p><span class="badge badge-pill badge-newsletter" style="margin-right: 1.5em;">newsletter</span><strong>Weekly digest of what's new from us!</strong></p>
-            </div>
-            <div class="modal-body">
-              <form class="form-details newsletter" id="form">
-                <div class="d-flex w-150 gap-2">
-                  <div class="form-group">
-                    <label for="exampleInputName" class="form-label required-input"></label>
-                    <input type="text" class="form-control" id="exampleInputName" placeholder="name" required>
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+          <div class="modal-header">
+            <p><span class="badge badge-pill badge-newsletter" style="margin-right: 1.5em;">newsletter</span><strong>Weekly digest of what's new from us!</strong></p>
+          </div>
+          <div class="modal-body">
+            <form class="form-details newsletter" id="form">
+              <div class="d-flex w-150 gap-2">
+                <div class="form-group">
+                  <label id="exampleInputName" class="form-label required-input"></label>
+                  <input type="text" class="form-control" id="exampleInputName1" placeholder="name" required>
                 </div>
-                  <div class="form-group">
-                    <label for="exampleInputEmail" class="form-label required-input"></label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="your email" required>
-                </div>
-                </div>
-            </div>
+                <div class="form-group">
+                  <label id="exampleInputEmail" class="form-label required-input"></label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" placeholder="your email" required>
+              </div>
+              </div>
             <div class="modal-footer">
               <input type="submit" id="btn-send" class="btn btn-sm btn-block btn-explore" value="Submit" data-toggle="modal" data-target="#popup"/> 
               <button class="btn-sm btn-ignore" id="ignore" type="button" data-dismiss="modal">Ignore</button>
             </div>
           </form>
-            </div>
-          </div>
-      </div>
-      </div>
-      <!-- ./Newsletter pop up-->
-
-  <!-- Other Articles -->
-
-      <div class="row mt-5 mb-5 ml-3 mr-3">
-        <div class="col-md-4">
-          <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-            <div class="col p-4 d-flex flex-column position-static">
-              <h6 class="d-inline-block mb-2 article-france">France</h6>
-              <h3 class="mb-0">10 reasons why camping in France is the ideal way to explore France’s nature and heritage</h3>
-              <div class="mb-1 text-muted">Aug 11</div>
-              <p class="card-text mb-auto">France is welcoming back its visitors and what better way to Explore France by staying in one of its many campsites. The French National Federation of Campsites are assuring British and Irish campers that the French campsites are open and ready to welcome guests to its 8000 member sites.</p>
-              <a href="https://franceuncovered.com/2021/08/13/10-reasons-why-camping-in-france-is-the-ideal-way-to-explore-frances-nature-and-heritage/" class="stretched-link reading-france" target="_blank">Continue reading</a>
-            </div>
-            <div class="col-auto d-none d-lg-block">
-              <img src ="assets/css/images/camping.jpeg" width="350" height="250" role="img" class ="article-img" aria-label="landscape with camping tent">
-            </div>
-          </div>
         </div>
-
-        <div class="col-md-4">
-          <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-            <div class="col p-4 d-flex flex-column position-static">
-              <h6 class="d-inline-block mb-2 article-world">World</h6>
-              <h3 class="mb-0">The 9 destinations where to practice sustainable tourism in 2021! </h3>
-              <div class="mb-1 text-muted">July 26</div>
-              <p class="mb-auto">In our last article (What is sustainable and responsible tourism?), we talked to you about sustainable tourism. If it is easy to evoke it, which countries or regions are really acting in this direction? </p>
-              <a href="https://www.ethik-hotels.com/en/the_exploractors_blog/the-9-destinations-where-to-practice-sustainable-tourism-in-2021-some-bonuses/" class="stretched-link reading-world" target="_blank">Continue reading</a>
-            </div>
-            <div class="col-auto d-none d-lg-block">
-              <img src ="assets/css/images/9destinations.jpeg" width="350" height="250" role="img" class ="article-img" aria-label="couple in front of a lake">
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-4">
-          <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-            <div class="col p-4 d-flex flex-column position-static">
-              <h6 class="d-inline-block mb-2 article-france">France</h6>
-              <h3 class="mb-0">Sustainable tourism in France: French and international tourists invited to give their opinion on measures to push forward</h3>
-              <div class="mb-1 text-muted">June 30</div>
-              <p class="mb-auto">The French Tourism Sector Committee launched on May 10 an online public consultation on the theme of responsible tourism.  From May 10 to June 20, 2021, British and international tourists are invited to express their opinion and share ideas.</p>
-              <a href="https://encapsulatefrance.com/2021/05/18/sustainable-tourism-in-france-french-and-international-tourists-invited-to-give-their-opinion-on-measures-to-push-forward/" class="stretched-link reading-france" target="_blank">Continue reading</a>
-            </div>
-            <div class="col-auto d-none d-lg-block">
-              <img src ="assets/css/images/touristopinion.jpeg" width="350" height="250" role="img" class ="article-img" aria-label="france map">
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-4">
-          <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-            <div class="col p-4 d-flex flex-column position-static">
-              <h6 class="d-inline-block mb-2 article-france">France</h6>
-              <h3 class="mb-0">France reopens for foreign tourists, but with conditions</h3>
-              <div class="mb-1 text-muted">May 14</div>
-              <p class="mb-auto">France will reopen for international tourism, removing the need for coronavirus tests for vaccinated Europeans and allowing vaccinated tourists from most of the rest of the world, including the United States, to also come back but with a negative test in hand. </p>
-              <a href="https://www.france24.com/en/france/20210604-france-reopens-for-foreign-tourists-but-with-conditions" class="stretched-link reading-france" target="_blank">Continue reading</a>
-            </div>
-            <div class="col-auto d-none d-lg-block">
-              <img src ="assets/css/images/francereopens.jpeg" width="350" height="250" role="img" class ="article-img" aria-label="airport security check">
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-4">
-          <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-            <div class="col p-4 d-flex flex-column position-static">
-              <h6 class="d-inline-block mb-2 article-france">France</h6>
-              <h3 class="mb-0">New Caledonia recognized as a 2021 sustainable destination by National Geographic</h3>
-              <div class="mb-1 text-muted">Apr 21</div>
-              <p class="mb-auto">New Caledonia continues to multiply initiatives in favor of sustainable tourism, which today allows the archipelago to become the essential sustainable destination of 2021, according to National Geographic.</p>
-              <a href="https://trade.newcaledonia.travel/fr/la-nouvelle-caledonie-reconnue-destination-durable-2021-par-national-geographic/" class="stretched-link reading-france" target="_blank">Continue reading</a>
-            </div>
-            <div class="col-auto d-none d-lg-block">
-              <img src ="assets/css/images/greennewcaledonia.jpeg" width="350" height="250" role="img" class ="article-img" aria-label="coral in the sea">
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-4">
-          <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-            <div class="col p-4 d-flex flex-column position-static">
-              <h6 class="d-inline-block mb-2 article-world">World</h6>
-              <h3 class="mb-0">Sustainable Tourism: Trends and Priorities in 2021</h3>
-              <div class="mb-1 text-muted">Mar 22</div>
-              <p class="mb-auto">Reset, rebuild, regenerative, resilient, transform – some of the terminologies frequently mentioned in discussions concerning the future of travel, after the pandemic. But which hot topics or trends are really dominating the sustainable tourism agenda this year?  </p>
-              <a href="https://sustainability-leaders.com/sustainable-tourism-priorities-2021/" class="stretched-link reading-world" target="_blank">Continue reading</a>
-            </div>
-            <div class="col-auto d-none d-lg-block">
-              <img src ="assets/css/images/trendspriorities2021.jpeg" width="350" height="250" role="img" class ="article-img" aria-label="coffee on a table outside">
-            </div>
-          </div>
         </div>
       </div>
-    </main>
-
-      <!--./ Other Articles -->    
-
-      <!--./News --> 
- 
-
- <!-- Fixed footer -->
- <footer class="footer mt-auto py-2 bg-dark">
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-6 col-sm-4">
-        <span class="uppercase general-sub text text-muted">All rights reserved</span><br>
-        <span class="copyright-style"><i class="fa fa-copyright" aria-hidden="true"></i> Copyright 2021</span>
-      </div>
-      <div class="col-6 col-sm-4"> 
-        
-      </div>
-      <div class="col-6 col-sm-4">
-        <ul class="list-inline social-links">
-          <li class="list-inline-item">
-              <a target="_blank" href="https://www.facebook.com/">
-                  <i class="fab fa-facebook fa-1x" aria-hidden="true"></i>
-                  <span class="sr-only">Facebook</span>
-              </a>
-          </li>
-          <li class="list-inline-item">
-              <a target="_blank" href="https://twitter.com/">
-                  <i class="fab fa-twitter fa-1x" aria-hidden="true"></i>
-                  <span class="sr-only">Twitter</span>
-              </a>
-          </li>
-          <li class="list-inline-item">
-              <a target="_blank" href="https://www.instagram.com">
-                  <i class="fab fa-instagram fa-1x" aria-hidden="true"></i>
-                  <span class="sr-only">Instagram</span>
-              </a>
-          </li>
-      </ul> 
-        </div>
     </div>
-  </div> 
-</footer>
-<!--./ Fixed footer -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+  </div>
+  <!-- ./ newsletter pop up-->
 
-    <script src="assets/js/news.js"></script>
+  <!-- small articles -->
+    <div class="row mt-5 mb-5 ml-3 mr-3">
+      <div class="col-md-4">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <h6 class="d-inline-block mb-2 article-france">France</h6>
+            <h3 class="mb-0">10 reasons why camping in France is the ideal way to explore France’s nature and heritage</h3>
+            <div class="mb-1 text-muted">Aug 11</div>
+            <p class="card-text mb-auto">France is welcoming back its visitors and what better way to Explore France by staying in one of its many campsites. The French National Federation of Campsites are assuring British and Irish campers that the French campsites are open and ready to welcome guests to its 8000 member sites.</p>
+            <a href="https://franceuncovered.com/2021/08/13/10-reasons-why-camping-in-france-is-the-ideal-way-to-explore-frances-nature-and-heritage/" class="stretched-link reading-france" target="_blank">Continue reading</a>
+          </div>
+          <div class="col-auto d-none d-lg-block">
+            <img src ="assets/css/images/camping.jpeg" width="350" height="250" class ="article-img" alt="landscape with camping tent">
+          </div>
+        </div>
+      </div>
 
-  </body>
+      <div class="col-md-4">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <h6 class="d-inline-block mb-2 article-world">World</h6>
+            <h3 class="mb-0">The 9 destinations where to practice sustainable tourism in 2021! </h3>
+            <div class="mb-1 text-muted">July 26</div>
+            <p class="mb-auto">In our last article (What is sustainable and responsible tourism?), we talked to you about sustainable tourism. If it is easy to evoke it, which countries or regions are really acting in this direction? </p>
+            <a href="https://www.ethik-hotels.com/en/the_exploractors_blog/the-9-destinations-where-to-practice-sustainable-tourism-in-2021-some-bonuses/" class="stretched-link reading-world" target="_blank">Continue reading</a>
+          </div>
+          <div class="col-auto d-none d-lg-block">
+            <img src ="assets/css/images/9destinations.jpeg" width="350" height="250" class ="article-img" alt="couple in front of a lake">
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <h6 class="d-inline-block mb-2 article-france">France</h6>
+            <h3 class="mb-0">Sustainable tourism in France: French and international tourists invited to give their opinion on measures to push forward</h3>
+            <div class="mb-1 text-muted">June 30</div>
+            <p class="mb-auto">The French Tourism Sector Committee launched on May 10 an online public consultation on the theme of responsible tourism.  From May 10 to June 20, 2021, British and international tourists are invited to express their opinion and share ideas.</p>
+            <a href="https://encapsulatefrance.com/2021/05/18/sustainable-tourism-in-france-french-and-international-tourists-invited-to-give-their-opinion-on-measures-to-push-forward/" class="stretched-link reading-france" target="_blank">Continue reading</a>
+          </div>
+          <div class="col-auto d-none d-lg-block">
+            <img src ="assets/css/images/touristopinion.jpeg" width="350" height="250" class ="article-img" alt="france map">
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <h6 class="d-inline-block mb-2 article-france">France</h6>
+            <h3 class="mb-0">France reopens for foreign tourists, but with conditions</h3>
+            <div class="mb-1 text-muted">May 14</div>
+            <p class="mb-auto">France will reopen for international tourism, removing the need for coronavirus tests for vaccinated Europeans and allowing vaccinated tourists from most of the rest of the world, including the United States, to also come back but with a negative test in hand. </p>
+            <a href="https://www.france24.com/en/france/20210604-france-reopens-for-foreign-tourists-but-with-conditions" class="stretched-link reading-france" target="_blank">Continue reading</a>
+          </div>
+          <div class="col-auto d-none d-lg-block">
+            <img src ="assets/css/images/francereopens.jpeg" width="350" height="250" class ="article-img" alt="airport security check">
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <h6 class="d-inline-block mb-2 article-france">France</h6>
+            <h3 class="mb-0">New Caledonia recognized as a 2021 sustainable destination by National Geographic</h3>
+            <div class="mb-1 text-muted">Apr 21</div>
+            <p class="mb-auto">New Caledonia continues to multiply initiatives in favor of sustainable tourism, which today allows the archipelago to become the essential sustainable destination of 2021, according to National Geographic.</p>
+            <a href="https://trade.newcaledonia.travel/fr/la-nouvelle-caledonie-reconnue-destination-durable-2021-par-national-geographic/" class="stretched-link reading-france" target="_blank">Continue reading</a>
+          </div>
+          <div class="col-auto d-none d-lg-block">
+            <img src ="assets/css/images/greennewcaledonia.jpeg" width="350" height="250" class ="article-img" alt="coral in the sea">
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <h6 class="d-inline-block mb-2 article-world">World</h6>
+            <h3 class="mb-0">Sustainable Tourism: Trends and Priorities in 2021</h3>
+            <div class="mb-1 text-muted">Mar 22</div>
+            <p class="mb-auto">Reset, rebuild, regenerative, resilient, transform – some of the terminologies frequently mentioned in discussions concerning the future of travel, after the pandemic. But which hot topics or trends are really dominating the sustainable tourism agenda this year?  </p>
+            <a href="https://sustainability-leaders.com/sustainable-tourism-priorities-2021/" class="stretched-link reading-world" target="_blank">Continue reading</a>
+          </div>
+          <div class="col-auto d-none d-lg-block">
+            <img src ="assets/css/images/trendspriorities2021.jpeg" width="350" height="250" class ="article-img" alt="coffee on a table outside">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--./ small articles --> 
+  </main>
+     
+ <!-- footer -->
+  <footer class="footer mt-auto py-2 bg-dark">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-6 col-sm-4">
+          <span class="uppercase general-sub text text-muted">All rights reserved</span><br>
+          <span class="copyright-style"><i class="fa fa-copyright" aria-hidden="true"></i> Copyright 2021</span>
+        </div>
+        <div class="col-6 col-sm-4"></div>
+        <div class="col-6 col-sm-4">
+          <ul class="list-inline social-links">
+            <li class="list-inline-item">
+              <a target="_blank" href="https://www.facebook.com/">
+                <i class="fab fa-facebook fa-1x" aria-hidden="true"></i>
+                <span class="sr-only">Facebook</span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a target="_blank" href="https://twitter.com/">
+                <i class="fab fa-twitter fa-1x" aria-hidden="true"></i>
+                <span class="sr-only">Twitter</span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a target="_blank" href="https://www.instagram.com">
+                <i class="fab fa-instagram fa-1x" aria-hidden="true"></i>
+                <span class="sr-only">Instagram</span>
+              </a>
+            </li>
+          </ul> 
+        </div>
+      </div>
+    </div> 
+  </footer>
+<!--./ footer -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+  <script src="assets/js/news.js"></script>
+
+</body>
 </html>

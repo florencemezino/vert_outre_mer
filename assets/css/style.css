@@ -83,7 +83,6 @@ h1 {
     margin: 0;
     margin-top : 100px;
     -webkit-text-stroke: 0.8px #fafafa;
-    font-size: bolder;
 }
 
 
@@ -181,24 +180,28 @@ h2 {
 #mapid { 
     height: 600px; 
     width: 980px; 
-    margin-left : 20px;
+    /* margin-top : 40px;
+    margin-bottom : 40px;
+    margin-left : 20px; */
     border-radius : 0.5%;
-    position: center;
     z-index : 5;
-    display :flex;
     position: relative;
+
+    /* margin-left : 20px !important; */
+    margin : 20px !important;
 }
 
 .map-style {
     background-color: #D5B881;
     margin-top : 80px;
-    margin-left : 10px;
     padding-top : 30px;
     padding-bottom : 30px;
     padding-right : 30px;
     border-radius :2%;
-    display :flex;
     position: relative;
+
+
+    padding-left : 50px !important;
 }
 
 .experience-subtext {
@@ -293,7 +296,7 @@ h2 {
 }
 
 
-/* Newsletter */
+/* newsletter */
 
 .newsletter-title {
     color : #146A84;
@@ -321,13 +324,11 @@ h2 {
 
 /* form */
 
-
 .contact-title {
     margin-top: 100px;
     position: relative;
     text-align: center;
 }  
-
 
 .form-title {
     color : #146A84;

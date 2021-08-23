@@ -297,7 +297,7 @@ const destinations = {
     },   
 
 
-}
+};
 
 
 // Initializing the dropdown list
@@ -308,9 +308,9 @@ $(document).ready(function () {
         var destinationName = $(this).text();
         loadDestination(destinationName);
 
-    })
+    });
 
-})
+});
 
 // Keep selection in dropdown 
 
@@ -327,7 +327,7 @@ $("#dropdown-list a").click(function(){
 const france = {
     lat : 46.7111,
     lng: 1.7191,
-}
+};
 const zoomLevel = 3;
 
 const map = L.map('mapid').setView([france.lat, france.lng],zoomLevel);
@@ -342,13 +342,13 @@ function loadDestination(destinationName){
             map.removeLayer(markers[i]);
         }
     
-        markers = []
+        markers = [];
     }
     // 
 
     const destination = destinations[destinationName];
     console.log(destination.events);
-    console.log(map)
+    console.log(map);
     var events = destination.events;
 
     for (let i = 0; i < events.length; i++) {
@@ -368,7 +368,7 @@ function loadDestination(destinationName){
 
         document.querySelector('#destination-info').innerHTML = `<span style="color:#146A84; font-weight: 300; font-size: 20px; margin-top:10px;">${destination.descriptions.summary}
         <a href="${destination.descriptions.toLink}" style="color:#BEC0C2; text-decoration:"underline" target="_blank">read more</a></span><br>
-        <img src="${destination.descriptions.image}" style="border-radius:2%; margin-top:10px; width: 300px;"></img>`
+        <img src="${destination.descriptions.image}" style="border-radius:2%; margin-top:10px; width: 300px;"></img>`;
     } 
 }
 
@@ -390,4 +390,5 @@ function init () {
 
  
 }
+
 
