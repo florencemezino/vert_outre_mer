@@ -2,7 +2,7 @@
 
 [View the live project here](link)
 
-![Vert l'Outre Mer](assets/testing/responsive.png)
+![Vert Outre Mer](assets/testing/responsivems2.png)
 
 ## User Experience (UX)
 
