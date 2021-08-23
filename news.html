@@ -72,7 +72,8 @@
   
       <!-- Newsletter pop up-->
       <div class= "container text-center">
-        <button type="button" class="btn btn-explore btn-newsletter" data-toggle="modal" data-target="#popup">
+        <!-- <button type="button" class="btn btn-explore btn-newsletter" id="closeNewsletter" id="subscribedNewsletter" data-toggle="modal" data-target="#popup"> -->
+          <button type="button" class="btn btn-explore btn-newsletter" id="subscribe-btn" data-toggle="modal" data-target="#popup">
         Subscribe to our Newsletter
         </button>
 
@@ -84,23 +85,23 @@
               <p><span class="badge badge-pill badge-newsletter" style="margin-right: 1.5em;">newsletter</span><strong>Weekly digest of what's new from us!</strong></p>
             </div>
             <div class="modal-body">
-
-              <form class="form-details newsletter">
-                <div class="d-flex w-100 gap-4">
+              <form class="form-details newsletter" id="form">
+                <div class="d-flex w-150 gap-2">
                   <div class="form-group">
+                    <label for="exampleInputName" class="form-label required-input"></label>
                     <input type="text" class="form-control" id="exampleInputName" placeholder="name" required>
                 </div>
                   <div class="form-group">
+                    <label for="exampleInputEmail" class="form-label required-input"></label>
                     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="your email" required>
                 </div>
                 </div>
-            </form>
-        
             </div>
             <div class="modal-footer">
-              <button class="btn-sm btn-explore" type="button" data-dismiss="modal">Subscribe</button>
-              <button type="button" class="btn-sm btn-close-popup" data-dismiss="modal"><i class="glyphicon glyphicon-remove"></i>Ignore</button>
+              <input type="submit" id="btn-send" class="btn btn-sm btn-block btn-explore" value="Submit" data-toggle="modal" data-target="#popup"/> 
+              <button class="btn-sm btn-ignore" id="ignore" type="button" data-dismiss="modal">Ignore</button>
             </div>
+          </form>
             </div>
           </div>
       </div>

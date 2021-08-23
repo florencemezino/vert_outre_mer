@@ -53,8 +53,8 @@ html, body {
 }
 
 .social-links {
-    float : right;
-    margin-right : 50px;
+    float : left;
+    margin-right : 10px;
 
 }
 
@@ -315,12 +315,12 @@ h2 {
     letter-spacing: 2px;
 }
 
-.btn-close-popup {
+.btn-ignore {
     color : #545B62;
     background-color: #fafafa;
 }
 
-.btn-close-popup:hover {
+.btn-ignore:hover {
     background-color : #545B62;
     color: #fafafa;
 }
