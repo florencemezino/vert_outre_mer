@@ -368,7 +368,7 @@ function loadDestination(destinationName){
 
         document.querySelector('#destination-info').innerHTML = `<span style="color:#146A84; font-weight: 300; font-size: 20px; margin-top:10px;">${destination.descriptions.summary}
         <a href="${destination.descriptions.toLink}" style="color:#BEC0C2; text-decoration:"underline" target="_blank">read more</a></span><br>
-        <img src="${destination.descriptions.image}" style="border-radius:0.5%; margin-top:10px;"></img>`
+        <img src="${destination.descriptions.image}" style="border-radius:2%; margin-top:10px; width: 300px;"></img>`
     } 
 }
 

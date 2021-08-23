@@ -23,6 +23,7 @@ header, main, footer {
 
 
 /* -------------------------------------------------------------------------------------------- Header*/
+
 /* Nav bar */
 
 .nav-bar {
@@ -50,7 +51,6 @@ header, main, footer {
 }
 
 
-
 /* -------------------------------------------------------------------------------------------- Footer*/
 
 
@@ -61,7 +61,6 @@ header, main, footer {
 .social-links {
     float : left;
     margin-right : 10px;
-
 }
 
 .fab {
@@ -76,18 +75,15 @@ header, main, footer {
 }
 
 /* -------------------------------------------------------------------------------------------- Destinations */
-/* Hero */
 
 
 h1 {
-    
     color : darkgoldenrod;
     font-weight : 700;
     margin: 0;
     margin-top : 100px;
     -webkit-text-stroke: 0.8px #fafafa;
     font-size: bolder;
-
 }
 
 
@@ -102,8 +98,6 @@ h2 {
     margin: 50px auto 0px auto; 
     padding:5px;font-size:20px;background-color: darkgoldenrod;color:#fafafa;opacity:0.8;
     border-radius : 0.5%;
-    
-
 }
 
 .destination-item {
@@ -111,7 +105,6 @@ h2 {
     font-weight: 200;
     letter-spacing : 2px;
     line-height: 25px;
-   
 }
 
 .destination-item:hover {
@@ -146,7 +139,6 @@ h2 {
     color : #fafafa;
     background-color : #146A84 !important;
     border : none;
-
 }
 
 .btn-contact{
@@ -164,13 +156,13 @@ h2 {
 }
 
 
- /* hero image */
+ /* zoom hero image */
 
  .hero-container-fluid {
     width: 100%;
     height: 100vh;
     overflow: hidden;
-    position: fixed;
+    position: relative;
 }
 
 .hero-img-holder {
@@ -188,20 +180,19 @@ h2 {
 
 #mapid { 
     height: 600px; 
-    width: 900px; 
+    width: 980px; 
     margin-left : 20px;
     border-radius : 0.5%;
     position: center;
     z-index : 5;
     display :flex;
     position: relative;
-
 }
 
 .map-style {
     background-color: #D5B881;
     margin-top : 80px;
-    Margin-left : 10px;
+    margin-left : 10px;
     padding-top : 30px;
     padding-bottom : 30px;
     padding-right : 30px;
@@ -229,10 +220,7 @@ h2 {
 }
 
 
-
-
 /* -------------------------------------------------------------------------------------------- News*/
-
 
 
 /* zoom report article photo */
@@ -250,10 +238,9 @@ h2 {
 }
 
 .report-img-container {
-    width: 300px;
+    width: 500px;
     height: 200px;
     border-radius : 2%;
-
 }
 
 .report-img-holder {
@@ -265,21 +252,18 @@ h2 {
     background-size: cover;
     background-repeat: no-repeat;
     transition: all 1s;
-    
 }
 
-
+/* all small articles */
 
 .article-france {
     color: #146A84;
     font-weight: bold;
-
 }
 
 .article-world {
     color: darkgoldenrod;
     font-weight: bold;
-
 }
 
 .reading-france {
@@ -290,7 +274,6 @@ h2 {
 .reading-france:hover {
     color: #146A84;
     font-weight: bold;
-   
 }
 
 .reading-world {
@@ -301,7 +284,6 @@ h2 {
 .reading-world:hover {
     color: darkgoldenrod;;
     font-weight: bold;
-   
 }
 
 .article-img{
@@ -309,7 +291,6 @@ h2 {
     margin-bottom : 15px;
     position: inherit;
 }
-
 
 
 /* Newsletter */
@@ -338,29 +319,15 @@ h2 {
 
 /* -------------------------------------------------------------------------------------------- Contact */
 
+/* form */
+
+
 .contact-title {
     margin-top: 100px;
     position: relative;
     text-align: center;
-}
+}  
 
-.contact-text {
-    color : #146A84;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    position: relative;
-    text-align: center;
-}
-
-
-.contact-img{
-    max-width : 100%;
-    height: 100vh;
-    margin-top : 20px;
-    margin-right : 10px;
-    padding-left : 50px;
-    border-radius: 0.5%;
-}
 
 .form-title {
     color : #146A84;
@@ -371,12 +338,48 @@ h2 {
     font-size: small;
 }
 
+/* contact image */
 
-.fa-quote-left{
-    color : #146A84;
+
+.contact-img {
+    border-radius: 5%;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
 
 }
 
+.contact-img-holder {
+    width: 100%;
+    height: 100vh;
+    background: url(assets/css/images/contact.JPG);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 1s;
+}
+
+.contact-img .contact-text {
+    color : #fafafa;
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 20%;
+    right: 10%;
+    top: 35%; 
+    text-align: center;
+    width: 60%;
+    font-size : 25px;
+}
+
+
+.fa-quote-left{
+    color : darkgoldenrod;
+}
+
 .fa-quote-right {
-    color : #146A84;
+    color : darkgoldenrod;
 }
