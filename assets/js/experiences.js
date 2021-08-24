@@ -387,8 +387,16 @@ function init () {
     });
 
     mainLayer.addTo(map);
-
  
 }
+
+
+    /* jshint 
+- warning available on ES6 ? important?
+- 304 -379 undefined variables
+- unused variable init ?
+
+    
+    */
 
 

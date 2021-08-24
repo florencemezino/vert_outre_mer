@@ -1,7 +1,7 @@
 // emailjs  : autoreply sent to user and to data sent to host
 
 function sendMail(contactForm) {
-    console.log("contact form", contactForm)
+    console.log("contact form", contactForm);
 
 emailjs.send("gmail","reception_request",{
     "from_name": contactForm.name.value,
@@ -13,11 +13,12 @@ emailjs.send("gmail","reception_request",{
             console.log("SUCCESS", response);
         },
         function(error) {
-            console.log("FAILED", error)
+            console.log("FAILED", error);
         });
     }
 
-// contactform modal alert after submitting the contact form
+// contact form modal alert after submitting the contact form
+
 
     $('#form').submit(function(e) {
         $('#messages').removeClass('hide').addClass('alert alert-success alert-dismissible').slideDown().show();
@@ -25,3 +26,12 @@ emailjs.send("gmail","reception_request",{
         $('#modal').modal('show');
         e.preventDefault();
     });
+
+
+    /* jshint
+unused variable sendMail to be fixed
+undefined variable email.js to be defined  
+undefined variables to be fixed fix : contact form modal alert after submitting the contact form
+    */
+
+
