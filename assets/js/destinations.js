@@ -12,3 +12,5 @@ $(document).ready(function() {
         $(this).find('.hero-img-holder').css('transform', 'scale(1)');
     });
 });
+
+// 5 undefined variables to be fixed 
