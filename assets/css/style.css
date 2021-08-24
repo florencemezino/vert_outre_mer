@@ -9,6 +9,9 @@
 html, body { 
     width: 100%;
     height: 100%;
+    min-height : 100vh;
+    display : flex;
+    flex-direction : column;
     font-family: 'Montserrat','sans serif';
 }
 
@@ -180,16 +183,18 @@ h2 {
 #mapid { 
     height: 600px; 
     width: 980px; 
-    /* margin-top : 40px;
-    margin-bottom : 40px;
-    margin-left : 20px; */
-    border-radius : 0.5%;
+    border-radius: 0.5%;
     z-index : 5;
     position: relative;
+    
+    margin-left : 20px !important;
 
-    /* margin-left : 20px !important; */
+    margin-bottom : 40px;
+    margin-left : 20px; 
     margin : 20px !important;
 }
+
+
 
 .map-style {
     background-color: #D5B881;
@@ -199,10 +204,11 @@ h2 {
     padding-right : 30px;
     border-radius :2%;
     position: relative;
-
-
     padding-left : 50px !important;
 }
+
+
+
 
 .experience-subtext {
     color : #545B62;
@@ -341,7 +347,6 @@ h2 {
 
 /* contact image */
 
-
 .contact-img {
     border-radius: 5%;
     position: relative;
@@ -384,3 +389,33 @@ h2 {
 .fa-quote-right {
     color : darkgoldenrod;
 }
+
+/* -------------------------------------------------------------------------------------------- media queries */
+
+/* map : experiences page */
+
+
+@media (max-width:850px) {
+    #mapid {
+        min-height: 450px;
+        position: relative;
+        float: none;
+        display: table-cell;
+        border-radius: 0.5%;
+        z-index: 5;
+        margin-top: 80px;
+    }
+
+    .map-style {
+        min-height: 450px;
+        background-color: #D5B881;
+        position: relative;
+        max-width:100%;
+        border-radius: 0.5%;
+        margin-top : 80px;
+    
+    }
+
+  }
+
+  
