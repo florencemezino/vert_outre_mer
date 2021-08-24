@@ -18,13 +18,11 @@ contactForm.addEventListener('submit', (event) => {
     emailjs.send('gmail', 'email_request', fields)
         .then(function (response) {
             console.log('MESSAGE SENT!', response.status, response.text);
-            contactForm.innerHTML = `<h2 style="font-size:100px; margin: 200px;">Message sent!</h2><br>
-            <span style="font-size: 50px; margin: 200px;">Thank you for your request. We sent you an email confirmation. Please check your junk or spam folder.</span>`;
+            contactForm.innerHTML = `<h4 style="color: #146A84; font-size: 60px; margin-top: 230px; text-align: center;"><i class="far fa-paper-plane"></i> Message sent!</h4><br>
+            <h2 style="color=#fafafa; text-align: center;">Thank you for your request. We sent you an email confirmation. Please check your junk or spam folder.</h2>`;
         }, function (error) {
             console.log('FAILED...', error);
         });
 
 });
-
-// change text from the image on the right when form is submitted
 
